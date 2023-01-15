@@ -1,0 +1,75 @@
+
+ @media (max-width: 500px){
+  
+  main {
+    max-width: 500px;
+    padding: 1rem;
+    
+  }
+  .navigation{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 10px;
+  }
+  #events{
+    padding: 10px;
+    margin-top: 25px;
+    text-align: justify;
+    background-color: black;
+    color:white
+
+  }
+  #weather{
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+    background-color: black;
+    color:white
+  }
+  
+  .hero{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+   }
+  
+   .hero-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 90%;
+    height: auto;
+    
+  }
+  .b-cards{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  
+  .chamber{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 35px;
+  }
+  #c-address{
+    padding-left: 10px;
+   background-color: black;
+    color: white;
+  }
+  #big-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: 100%;
+    height: auto;
+    
+  }
+}

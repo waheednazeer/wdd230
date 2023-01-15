@@ -1,0 +1,40 @@
+
+body{
+    
+    
+    width:600px
+    
+}
+h1{
+    text-align: center;
+}
+main{
+    
+    justify-items: center;
+    align-items: center;
+    
+    border: 2px solid;
+    border: 2px solid blue;
+}
+div{
+    grid-template-columns: repeat(6,100px);;
+    border: 2px solid;
+    justify-items: center;
+    align-items: center;
+}
+
+button {
+   grid-column: 3/4;
+    font-size: 12px;
+    padding:10px;
+    background-color: black;
+    color: yellow;
+    margin-top: 5px;
+  }
+
+ul{
+    
+    border: 2px solid;
+}
+
+  

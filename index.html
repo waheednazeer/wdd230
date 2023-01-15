@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Waheed Nazir, BYUI WDD230 Course Assignment Portal for Winter-23 session">
+    <meta name="keywords" content="HTML, CSS, JavaScript, WDD230">
+    <meta name="author" content="Waheed Nazir">
+    <meta property="og:title" content="Waheed Nazir WD230 Course Portal">
+    <meta property="og:image" content="https://www.cda.gov.pk/images/schemes/gulbergResidencia.jpg">
+    <meta property="og:url" content="https://wimsh.github.io/wdd230/">
+    <meta property="og:description" content="Waheed Nazir BYUI WD230 Course Portal for uploading weekly assignments webpage links">
+    <meta property="og:type" content="BYUI WD230 Activities Course Portal">
+    <title>WDD 230 - Portal - Waheed Nazir</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/larger.css">
+    
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <nav class="navigation-menu"> 
+        <ul class="navigation">
+            <li><a id="menu" href="#"></a></li>
+            <li><a href="https://www.byui.edu/" target="_blank">BYU - Idaho</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+            <li><button onclick="darkModeToggle()" id="darkmode">Dark Mode</button></li>
+            <li></li>
+        </ul>
+        
+        
+    </nav>
+    <header>     
+            <h1>Waheed Nazir</h1>
+            <img class="waheed" src="images/waheed.JPG" alt="waheed nazir">
+    </header>
+    
+    <main>
+        <h2>WDD 230: Course Activity Portal</h2><hr>
+        <div class="cards">
+        <section class="card" id="card-1"> 
+            <h3>Learning Activities</h3>
+            <ul>
+                <li>Week-01: <a href="https://wimsh.github.io/wdd230/week01/holygrail.html" target="_blank"> Autograil</a>
+                    |
+                    <a href="https://wimsh.github.io/wdd230/week01/chamber-site-plan" target="_blank"> Site-Plan</a>  
+                    |
+                    <a href="https://wimsh.github.io/wdd230/week01/media-query.html" target="_blank">Media</a>
+                </li>
+                <li>Week-02: 
+                    <a href="https://wimsh.github.io/wdd230/week02/design" target="_blank">Design</a>
+                    |
+                    <a href="https://codepen.io/waheednazir/pen/MWBJPWy" target="_blank">CodePen</a>
+                    |
+                    <a href="https://wimsh.github.io/wdd230/week02/bom" target="_blank">BOM</a>
+                    |
+                    <a href="https://wimsh.github.io/wdd230/chamber/index.html#" target="_blank">Chamber</a>
+
+                </li>
+                <li>Week-03: </li>
+                <li>Week-04: </li>
+                <li>Week-05: </li>
+                <li>Week-06: </li>
+                <li>Week-07: </li>
+            </ul>
+        </section>
+
+        <section class="card" id="card-2">
+            <h3>Projects</h3>
+            <a href="">Chamber Project Folder</a>
+        </section>
+
+        <section class="card" id="card-3">
+            <h3>Information</h3>
+            <a href="">weather</a>
+            <p>Visit Count:</p>
+            
+        </section>
+    </div>
+    </main>
+    
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span> - Waheed Nazir - Pakistan
+            
+        </p>
+        <p class="highlight">
+            Last Modified: <span id="lastmodified"> </span>
+        </p>
+    </footer>
+<script src="scripts/getDates.js">
+    
+</script>
+</body>
+</html>
