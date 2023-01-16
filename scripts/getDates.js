@@ -21,18 +21,15 @@ function darkModeToggle() {
   }
   // for visitor counter
 let counterRecord = document.querySelector(".counter");
-let visitCount = localStorage.getItem("page_view");
+let visitCount = Number(window.localStorage.getItem("visits-ls"));
 
 // Check if page_view entry is present
-if (visitCount) {
-  visitCount = Number(visitCount) + 1;
-  localStorage.setItem("page_view", visitCount);
+if (visitCount !== 0) {
+  counterRecord.innerHTML = visitCount;
   
-} else {
-  
-  visitCount = 1;
-  localStorage.setItem("page_view", 1);
-  
+} 
+else{
+  counterRecord.innerHTML = "Welcome for your first visit!";
 }
-counterRecord.innerHTML = visitCount;
-
+visitCount+=1;
+localStorage.setItem("visits-ls", visitCount);
