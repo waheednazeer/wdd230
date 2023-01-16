@@ -11,7 +11,7 @@ header{
     margin-bottom: 2px;
 }
 main{
-    width: 300px;
+    width: 400px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -21,6 +21,7 @@ h1{
 }
 img{
     width: 100%;
+    height: auto;
     background-color: black;
     animation: fade 20s;
     margin-top: 5px;
