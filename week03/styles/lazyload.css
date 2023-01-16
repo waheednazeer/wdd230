@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Merriweather&display=swap');
+body{
+    font-family: 'Merriweather', serif;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    margin-bottom: 2px;
+}
 main{
     width: 300px;
     margin: 0 auto;
@@ -11,7 +23,7 @@ img{
     width: 100%;
     background-color: black;
     animation: fade 20s;
-    
+    margin-top: 5px;
 }
 @keyframes fade{
     0% {
@@ -21,3 +33,12 @@ img{
         opacity: 1;
     }
 }
+
+
+  footer {
+    background: black;
+    color: white;
+    margin-top: 1.5em;
+    text-align: center;
+     padding: 1px;   
+  }

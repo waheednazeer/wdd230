@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lazyload Demonstration Example</title>
     <link rel="stylesheet" type="text/css" href="styles/lazyload.css">
-    <script src="scripts/lazyload.js"></script>
+    
 </head>
 <body>
+    <header><h1>Lazyload Demonstration Example</h1></header>
+    
     <main>
         
-        <h1>Lazyload Demonstration Example</h1>
+        
         <picture> <img src="images/dog-1a.jpg" alt="dogs pictures" loading="lazy" width="300px" height="420px"></picture>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quos eveniet blanditiis unde 
             nobis nemo ducimus incidunt ipsam deserunt atque voluptatibus quo, quibusdam saepe doloremque 
@@ -35,6 +37,12 @@
         <picture> <img src="images/dog-5.jpg" alt="dogs pictures" loading="lazy" width="300px" height="420px""></picture>
         <picture> <img src="images/sphynx-cat-1.jpg" alt="sphynx cat breed" loading="lazy" width="300px" height="420px""></picture>
     </main>
-    <footer>Waheed Nazir</footer>
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span> .:|:.Waheed Nazir .:|:. Pakistan Last Modified: 
+            <span id="lastmodified"> </span>
+        </p>
+    </footer>
+    <script src="scripts/lazyload.js"></script>
 </body>
 </html>
