@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 body {
     width: auto;
@@ -36,17 +37,7 @@ body {
   }
  
   
-  h2{
-    padding-top: 5px;
-    text-align: center;
-  }
-  hr { 
-    display: block;
-    margin-bottom: 1.5em;
-    border-style: inset;
-    border-width:3px;
-   
-  } 
+  
  
 /* this is responsive menu*/
 .navigation {
@@ -103,9 +94,56 @@ body {
   }
   main {
     place-self: center;
-    
-    
+       
   }
+  
+  .hero {
+
+    margin: 30px auto;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
+    height: 450px;
+    border-bottom: 50px;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    }
+  
+  .herolabel {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    background: radial-gradient(#fff, #509c63);
+    border: 1px solid rgba(0,0,0,1);
+    padding: 1.5rem;
+    box-shadow: 0 0 12rem rgb(115, 188, 120);
+    opacity: 15;
+    /* Buenas */
+  }
+  
+  .herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family:"Great Vibes", serif;
+  }
+  h2{
+    padding-top: 5px;
+    text-align: center;
+  }
+  hr {   
+    display: block;
+    border-style: inset;
+    border-width:3px;
+  } 
+
+
+
+
 
   main.dark,
   main.dark a {
