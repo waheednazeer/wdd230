@@ -1,0 +1,23 @@
+main{
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 100%;
+    background-color: black;
+    animation: fade 20s;
+    
+}
+@keyframes fade{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
