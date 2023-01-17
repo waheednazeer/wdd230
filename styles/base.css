@@ -246,11 +246,13 @@ body {
     margin-top: 35px;
     display: grid;
     grid-template-columns: 40px 1fr 40px;
-    align-items: center;
-    justify-items: center;
+    
   }
   iframe{
     grid-column: 2/4;
+  }
+  iframe{
+    margin: 0 auto;
   }
     
   footer {
