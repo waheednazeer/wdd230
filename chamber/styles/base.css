@@ -118,6 +118,7 @@ body {
     right: 30px;
     background: radial-gradient(#fff, #3c8aba);
     border: 1px solid rgba(0,0,0,1);
+    border-radius: 50%;
     padding: 1.5rem;
     box-shadow: 0 0 4rem rgb(47, 92, 164);
     opacity: 15;
@@ -125,6 +126,7 @@ body {
   }
   
   .herolabel a {
+    text-decoration: none;
     margin: 0;
     padding: 2px;
     font-weight: 700;
