@@ -303,7 +303,13 @@ body {
     column-gap: 30px;
     
   }
-  .disc-main h1{
+  .disc-main h3{
+    text-align: center;
+   background-color: transparent;
+   color: black;
+   padding: 10px;
+  }
+  .disc-main h2{
     text-align: center;
     grid-column: 1/3;
     margin-bottom: -5px;
