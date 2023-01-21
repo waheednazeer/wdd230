@@ -1,0 +1,340 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    width: auto;
+    font-family: 'Lato', sans-serif, serif;
+    font-size: medium;
+    
+  }
+  .navigation-menu{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: right;
+    gap: 3rem;
+    background: black;
+    width: auto;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: left;
+    background-color: rgb(131, 131, 216);
+    gap: 3rem; 
+    height: 120px
+  }
+  
+  .logo{
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-left: 30px;
+    border: 1px solid;
+    width: 180px;
+    height: 180px;
+    transition: 1s ease;
+  }
+.logo:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.6);
+  transition: .5s ease;
+  }
+ 
+  
+  
+ 
+/* this is responsive menu*/
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+#menu::before {
+  content: "≡";
+  font-size: 3rem;
+  margin-right: 10px;
+  color: white;
+ }
+ .navigation a:hover, navigation a:active{
+	color: yellow;
+	background-color: black;
+}
+.responsive li {
+	display: block;
+}
+
+.responsive #menu::before {
+	content: "X";
+  color: red;
+  
+}
+/* This is end of responsive css code*/
+  
+  
+  h3{
+    text-align: center;
+    margin-top: -1px;
+    background-color: rgb(27, 27, 112);
+    padding: 5px;
+    color: white;
+  }
+ 
+  
+  .hero {
+    margin-top: 35px;
+    position: relative;
+   }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+    
+    }
+  
+  .herolabel {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: radial-gradient(#fff, #3c8aba);
+    border: 1px solid rgba(0,0,0,1);
+    padding: 1.5rem;
+    box-shadow: 0 0 4rem rgb(47, 92, 164);
+    opacity: 15;
+    /* Buenas */
+  }
+  
+  .herolabel a {
+    margin: 0;
+    padding: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    
+  }
+  h2{
+    
+    text-align: center;
+  }
+   
+
+.main-index hr{
+  margin-top: -15px;
+  margin-bottom: 20px;
+  border: 5px solid black;
+  width: 93%;
+}
+.main-index h2{
+  margin-top: 30px;
+}
+
+
+
+  main.dark,
+  main.dark a {
+      background-color: rgb(35, 35, 35);
+      color: white;
+  }
+  main.dark h2 {color: white;}
+  
+  #darkmode {
+      background-color: black;
+      color: white;
+      padding: 0.75rem;
+	  	font-weight: 700;
+	    transition: 0.5s;
+	    font-size: clamp(1rem, 2vmin, 1.5rem);
+  
+  }
+   
+  
+  h4{
+    padding-left: 20px;
+  }
+
+  section p{
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px ;
+    
+  }
+ 
+  
+  nav a{
+    text-decoration: none;
+    color: white
+    
+  }
+  .updates{
+    display: grid;
+    grid-template-columns: 2.1fr 1fr;
+    justify-items: center;
+    column-gap: 40px;
+    margin-bottom: 35px;
+    margin: 0 40px;   
+  }
+  #events{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    height: auto;
+    width: 100%;
+    border: 1px solid;
+    box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
+    justify-items: center;
+  }
+  #weather{
+    
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding-bottom: 15px;
+    height: auto;
+    width: 100%;
+    border: 1px solid;
+    box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
+   }
+  
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    column-gap: 40px;
+    margin-bottom: 35px;
+    margin: 0 40px;
+  }
+
+  #card-1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    height: auto;
+    width: 100%;
+    border: 1px solid;
+    box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
+    justify-items: center;
+  }
+  #card-2{
+    
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding-bottom: 15px;
+    height: auto;
+    width: 100%;
+    border: 1px solid;
+    box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
+   }
+
+  #card-3{
+    
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    
+    height: auto;
+    width: 100%;
+    border: 1px solid;
+    box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
+   
+    
+
+  }
+  .map-container{
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 35%;
+  
+  }
+  .map{
+    grid-column: 2/3;
+    position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin-top: 30px;
+  }
+ 
+    
+  footer {
+    background: black;
+    color: white;
+    margin-top: 35px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Lato', sans-serif, serif;
+    font-size: 15px;
+    
+    
+  }
+  /* below is CSS code for discover.html*/
+ 
+  .disc-main hr{
+    border: 5px solid black;
+    width: 99%;
+  }
+  .disc-main{
+    margin: 0 30px;
+    display: grid;
+    grid-template-columns: 1.2fr 1.8fr;
+    column-gap: 30px;
+    
+  }
+  .disc-main h1{
+    text-align: center;
+    grid-column: 1/3;
+    margin-bottom: -5px;
+  }
+  .disc-main hr{
+    grid-column: 1/3;
+    margin-bottom: 20px;
+  }
+  .sidebar{
+    grid-column: 1/2;
+    align-self: flex-start;
+    background-color: yellowgreen;
+    position: sticky;
+    top: 5%;
+    height: 600px;
+    padding-left: 25px;
+  }
+  .photos{
+    grid-column: 2/3;
+    background-color: #3c8aba;
+    
+  }
+  .photos img{
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+  }
+.photos img{
+  transition: 1s ease;
+}
+.photos img:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.6);
+  transition: .5s ease;
+  }

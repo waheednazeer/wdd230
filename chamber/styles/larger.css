@@ -1,0 +1,66 @@
+
+ @media (max-width: 500px){
+  
+  main {
+    max-width: 500px;
+    padding: 1rem;
+    
+  }
+  h2{
+    text-align: center;
+  }
+  
+  .cards{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     }
+     .navigation-menu{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      background: black;
+      padding: 1rem
+      
+      
+    }
+    .map{
+      grid-column: 1/4;
+      width:100%;
+    }
+
+    /* below is CSS code for discover.html*/
+ 
+  .disc-main hr{
+    border: 5px solid black;
+    width: 99%;
+  }
+  .disc-main{
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }  
+  .sidebar{
+    width: 93%;
+    align-self: flex-start;
+    background-color: yellowgreen;
+    position:initial;
+    height: 400px;
+   
+  }
+  
+    
+.photos img{
+  transition: none;
+}
+.photos img:hover{
+ 
+  transform: none;
+  transition: none;
+  }
+ }
