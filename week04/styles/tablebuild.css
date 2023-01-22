@@ -2,6 +2,9 @@
 body{
   font-family: 'Merriweather', serif;
 }
+header{
+  margin:-10px -10px;
+}
 header h1{
   background-color: black;
   color: white;
