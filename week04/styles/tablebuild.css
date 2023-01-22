@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Merriweather&display=swap');
+body{
+  font-family: 'Merriweather', serif;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 200px auto;
+  height: 700px
+  
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+	vertical-align: middle;
+}
+caption{
+  caption-side: bottom;
+  font-size: 20px;
+}
+thead {
+	background-color: #333;
+	color: white;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+}
+thead th {
+  width: 25%;
+}
+th, td {
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+tbody tr:nth-child(1) td{
+  color: blue;
+  font-weight:bolder;
+}
+
+tbody tr:nth-child(2) td:first-of-type {
+  color: red;
+  font-weight:bolder;
+}
+tbody tr:nth-child(2) td:nth-child(3){
+  color: blue;
+  font-weight:bolder;
+}
+tbody tr:nth-child(2) td:nth-child(4){
+  color: blue;
+  font-weight:bolder;
+}
+tbody tr:nth-child(3) td:first-of-type {
+  color: red;
+  font-weight:bolder;
+}
+tbody tr:nth-child(3) td:nth-child(3) {
+  color: red;
+  font-weight:bolder;
+}
+tbody tr:nth-child(3) td:nth-child(4) {
+  color: blue;
+  font-weight:bolder;
+}
