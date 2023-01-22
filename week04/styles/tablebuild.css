@@ -2,7 +2,12 @@
 body{
   font-family: 'Merriweather', serif;
 }
-
+header h1{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
 main{
   display: flex;
   flex-direction: column;
@@ -72,4 +77,15 @@ tbody tr:nth-child(3) td:nth-child(3) {
 tbody tr:nth-child(3) td:nth-child(4) {
   color: blue;
   font-weight:bolder;
+}
+
+footer {
+  background: black;
+  color: white;
+  margin-top: 35px;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Lato', sans-serif, serif;
+  font-size: 15px;
+  
 }
