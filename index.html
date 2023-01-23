@@ -113,6 +113,86 @@
         title="Gulberg Green Islamabad google map" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
     </div>
+
+    <h1>Send Us a Message</h1>
+    <div class="form">
+        <section class="input-msg">
+        <h2>Sender Information</h2>
+        <form>
+            <fieldset>
+            <legend>Sender Information</legend>
+            <label class="top">Full Name* <input id="name" type="text" name="fullname" required></label>
+            <label class="top">Email* 
+                <input id="email" type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                 placeholder="someone@gmail.com" required></label>
+            <label class="top">Page Rating* [ <span id="rating"></span> ]:<input type="range" id="r" min="1" max="10" name="rate" list="five" required="required"></label>
+            <div class="ratinglabels">
+                <span class="ratevalue">1</span>
+                <span class="ratevalue">2</span>
+                <span class="ratevalue">3</span>
+                <span class="ratevalue">4</span>
+                <span class="ratevalue">5</span>
+                <span class="ratevalue">6</span>
+                <span class="ratevalue">7</span>
+                <span class="ratevalue">8</span>
+                <span class="ratevalue">9</span>
+                <span class="ratevalue">10</span>
+            </div>
+            <!--pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{3,6}$"-->
+            <label class="top">Key Phrase<input id="username" type="password" name="keyphrase" 
+                pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{5,12}$" required 
+                title="Input must be between 5-12 characters, at least one Capital and Small letter, one digit and one special 
+                Character"/>
+            </label>
+            <label class="top">Re-enter Key Phrase <input id="username2" type="password" name="keyphrase" 
+                pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{5,12}$" required /></label>
+            <label for="comments" class="top">Message:<textarea name="comments" required></textarea></label>
+            </fieldset>
+            <input type="submit" onclick="myForm()" value="Send Your Message" class="submitBtn" id="submitBtn">
+        </form>
+        </section>
+        <section class="output-msg">
+            <h2>Submitted Form</h2>
+
+            <table>
+                <caption>Table 1: HTML Table Output</caption>
+                <thead>
+                  <tr>
+                    <th colspan="2">Form Input</th>
+                  </tr>
+                  <tr>
+                    <th>Field</th>
+                    <th>Value</th>
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>Name:</th>
+                    <td id="filled-name"></td>
+                    
+                  </tr>
+                  <tr>
+                    <th>Email:</th>
+                    <td id="filled-email"></td>
+                    
+                  </tr>
+                  <tr>
+                    <th>Rating:</th>
+                    <td id="filled-rating"></td>
+                    
+                  </tr>
+                  <tr>
+                    <th>Username:</th>
+                    <td id="filled-username"></td>
+                    
+                  </tr>
+                </tbody>
+              </table>
+
+        </section>
+    </div>
+
     </main>
     
     <footer>
