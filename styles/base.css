@@ -300,8 +300,8 @@ form legend{
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: red;
-    font-size: .8rem;
+    color: blue;
+    font-size: .85rem;
 }
 form label.top input, form label.top select, form label.top textarea{
     
