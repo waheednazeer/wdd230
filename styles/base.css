@@ -266,34 +266,22 @@ body {
   }
   /*--------------Form----------------------*/
   .form-heading{
-    text-align: left;
-    margin-bottom: -10px;
+    margin-top: 40px;
     margin-left: 70px;
+    margin-bottom: -2px;
+    
   }
  
   .form{
     display: flex;
     flex-direction: row;
-    column-gap: 100px;
+    column-gap: 50px;
     margin: 0 70px;
-  }
-  .input-msg{
-    width: 40%;
-    
-  }
-  .output-msg{
-    width: 40%;
     
   }
   
-  .mytable{
-    display: block;
-  }
-  .output-msg::selection{
-    display: block;
-  }
   form fieldset{
-    margin:2rem 0;
+    margin:0 0;
     border: 1px solid #445ba9;
     border-radius: 10px;
     padding: .5px 2%;
@@ -302,6 +290,12 @@ form legend{
     color: #445ba9;
     margin: 0 1rem;
     padding: 0 .5rem;
+}
+.output-msg legend{
+  color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    
 }
 form label.top, form div{
     display: block;
@@ -317,12 +311,15 @@ form label.top input, form label.top select, form label.top textarea{
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    max-width: 20rem;
+    width: 93%;
     background-color: rgba(0,0,0,0.1);
 }
-.output-msg table{
-  margin-top: 50px;
-  border-radius: 4px;
+.output-msg fieldset{
+    margin:0 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5px 2%;
+    
 }
 .ratinglabels {
 	display: flex;
@@ -339,7 +336,7 @@ form label.top input, form label.top select, form label.top textarea{
 	margin-bottom: 0;
 	padding-bottom: 0;
 	width: 50%;
-  color: green;
+  
 }
 #rating{
   color:red;
@@ -363,11 +360,29 @@ form label.top input:required:valid{
     border-left: green solid 6px;
 }
   /*---------------Table----------------------*/
+ 
+  .input-msg{
+    width: 50%;
+    
+  }
+  .output-msg{
+    width: 50%;
+    
+  }
+  table{
+    display: none;
+  }
+  .mytable{
+    display: block;
+  }
+ 
+
 table {
+  margin-top: 40px;
   border-collapse: collapse;
   text-align: center;
 	vertical-align: middle;
-  
+  margin-bottom: 125px;
 }
 caption{
   caption-side: bottom;
@@ -376,22 +391,27 @@ caption{
 thead {
 	background-color: #333;
 	color: white;
-	font-size: 0.875rem;
-	text-transform: uppercase;
-	letter-spacing: 2%;
+	
 }
 thead th {
   width: 20%;
 }
-th, td {
+table th, td {
   border: 1px solid black;
   padding: 20px;
-  font-size: 30px;
-  font-weight: bolder;
-  
+ 
+   
 }
-
-
+table td {
+  
+    width: 70%;
+}
+table tr{
+  background-color: rgb(216, 212, 212);
+}
+table thead tr{
+  background-color: black;
+}
 
 
 
