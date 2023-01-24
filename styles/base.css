@@ -324,7 +324,7 @@ form label.top input, form label.top select, form label.top textarea{
 .ratinglabels {
 	display: flex;
 	justify-content: space-around;
-  width: 55%;
+  width: 75%;
   margin-top: -23px;
   
 }
@@ -333,9 +333,10 @@ form label.top input, form label.top select, form label.top textarea{
 	
 }
 #r {
+ 
 	margin-bottom: 0;
 	padding-bottom: 0;
-	width: 50%;
+	width: 69%;
   
 }
 #rating{
