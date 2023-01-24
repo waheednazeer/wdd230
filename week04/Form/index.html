@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        table, th, td {
+          border:1px solid black;
+          border-collapse: collapse;
+        }
+        th,td{
+            width: 20%;
+        }
+        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <form>
+<fieldset>
+    <legend>My Form</legend>
+    <label><input type="text" name="text" value="text" id="iname"></label>
+</fieldset>
+<input onclick="myForm()" type="button" value="submitBtn">
+    </form>
+    <table>
+        <tr>
+          <th>Field</th>
+          <th>Value</th> 
+          
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td id="fname"></td>
+          
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td></td>
+          
+        </tr>
+       
+      </table>
+    </main>
+      <script>
+        function myForm(){
+            const myname=document.getElementById('iname').value;
+            document.getElementById('fname').innerHTML=myname;
+        
+        }
+      </script>
+</body>
+</html>

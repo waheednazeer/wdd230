@@ -286,9 +286,7 @@ body {
     
   }
   
-  .mytable{
-    display: block;
-  }
+ 
   .output-msg::selection{
     display: block;
   }

@@ -114,7 +114,7 @@
         </iframe>
     </div>
 
-    <h1>Send Us a Message</h1>
+    <h2 class="form-heading">Send Us a Message</h2>
     <div class="form">
         <section class="input-msg">
         <h2>Sender Information</h2>
@@ -139,22 +139,19 @@
                 <span class="ratevalue">10</span>
             </div>
             <!--pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{3,6}$"-->
-            <label class="top">Key Phrase<input id="username" type="password" name="keyphrase" 
-                pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{5,12}$" required 
-                title="Input must be between 5-12 characters, at least one Capital and Small letter, one digit and one special 
-                Character"/>
+            <label class="top">Key Phrase<input id="username" pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{5,12}$" type="password" name="keyphrase" required title="Input must be between 5-12 characters, at least one Capital and Small letter, one digit and one special Character"/>
             </label>
             <label class="top">Re-enter Key Phrase <input id="username2" type="password" name="keyphrase" 
                 pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{5,12}$" required /></label>
             <label for="comments" class="top">Message:<textarea name="comments" required></textarea></label>
             </fieldset>
-            <input type="submit" onclick="myForm()" value="Send Your Message" class="submitBtn" id="submitBtn">
+            <input onclick="myForm()" type="button" value="Send Your Message" class="submitBtn" id="submitBtn">
         </form>
         </section>
         <section class="output-msg">
             <h2>Submitted Form</h2>
 
-            <table>
+            <table style="width: 100%;">
                 <caption>Table 1: HTML Table Output</caption>
                 <thead>
                   <tr>
@@ -162,7 +159,7 @@
                   </tr>
                   <tr>
                     <th>Field</th>
-                    <th>Value</th>
+                    <th style="width: 70%;">Value</th>
                     
                   </tr>
                 </thead>
