@@ -349,9 +349,9 @@ form label.top input, form label.top select, form label.top textarea{
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
+    margin: .75rem 0 2rem 2%;
     width: 96%;
-    max-width: 20rem;
+    max-width: 96%;
 }
 form label.top input:required{
     border-left: red solid 6px;
