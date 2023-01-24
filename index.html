@@ -118,7 +118,7 @@
     <div class="form">
         
         <section class="input-msg">
-          <form>
+          <form id="formId">
             <fieldset>
             <legend>Sender Information</legend>
             <label class="top">Full Name* <input id="name" type="text" name="fullname" required></label>
@@ -145,7 +145,7 @@
                 pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{5,12}$" required /></label>
             <label for="comments" class="top">Message:<textarea id="comments" name="comments" required></textarea></label>
             </fieldset>
-            <input onclick="myForm()" type="button" value="Send Your Message" class="submitBtn" id="submitBtn">
+            <input onclick="myForm()" type="submit" value="Send Your Message" class="submitBtn" id="submitBtn">
         </form>
         </section>
         <section class="output-msg">

@@ -372,10 +372,11 @@ form label.top input:required:valid{
   table{
     display: none;
   }
+ 
   .mytable{
     display: block;
   }
- 
+
 
 table {
   margin-top: 40px;

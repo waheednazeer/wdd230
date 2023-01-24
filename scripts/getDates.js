@@ -36,6 +36,7 @@ localStorage.setItem("visits-ls", visitCount);
 
 //----------------------Form & Table--------------------------
 function myForm(){
+ // event.preventDefault();
 let submittedForm=document.querySelector('table');
 let senderName=document.getElementById('name').value;
 let senderEmail=document.getElementById('email').value;
@@ -58,22 +59,22 @@ if(senderName == ''){
   else if (senderEmail == ''){
     window.alert("Email can not be kept empty!");
   }
-  else if (senderUsername.length<5 || senderUsername.length >12){
+  /*else if (senderUsername.length<5 || senderUsername.length >12){
     window.alert("Phrase muste be between 5 & 12 digits!");
-  }
+  }*/
   else if (senderUsername !== senderUsername2){
     window.alert("Re-enter phrase muste be same!");
   }
   else if (senderComments.length <5){
     window.alert("Please write one sentence in Message box!");
   }
-  else{
+
 document.getElementById('filled-name').innerHTML=senderName;
 document.getElementById('filled-email').innerHTML=senderEmail;
 document.getElementById('filled-rating').innerHTML=senderRating;
 document.getElementById('filled-username').innerHTML=senderUsername;
 submittedForm.classList.toggle("mytable");
-  }
+
 }
 
 //------------------rating sliding bar---------------------
@@ -88,3 +89,16 @@ function displayRatingValue() {
 
 rangevalue.addEventListener('change', displayRatingValue);
 rangevalue.addEventListener('input', displayRatingValue);
+
+
+//Get form element
+var form=document.getElementById("formId");
+function submitForm(event){
+
+   //Preventing page refresh
+   event.preventDefault();
+}
+
+//Calling a function during form submission.
+form.addEventListener('submit', submitForm);
+
