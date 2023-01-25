@@ -290,6 +290,7 @@ body {
     border: var(--field-bord-color);
     border-radius: 10px;
     padding: .5px 2%;
+    
 }
 form legend{
     color: var(--lgnd-color);

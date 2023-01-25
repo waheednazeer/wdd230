@@ -32,6 +32,36 @@
       grid-column: 1/4;
       width:100%;
     }
+    .form-heading{
+      margin-left: 0;
+      
+    }
+    .form{
+      display: flex;
+      flex-direction: column;
+      row-gap: 50px;
+      margin: 0 0;
+    }
+    
+    .input-msg{
+      width: 100%;
+      
+    }
+    .output-msg{
+      width: 100%;
+      
+    }
+    form label.top input, form label.top select, form label.top textarea{
+    
+      display: block;
+      font-size: 1rem;
+      border: solid 1px #999;
+      border-radius: 4px;
+      padding: 5px;
+      color: #555;
+      width: 93%;
+      background-color: rgba(0,0,0,0.1);
+  }
      
  }
   
