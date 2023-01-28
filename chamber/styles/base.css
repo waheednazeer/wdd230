@@ -359,9 +359,9 @@ body {
   /*------------------------below is css code for Join.html page*/
   .form-heading{
     margin-top: 60px;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-bottom: -2px;
-    
+    text-align: left;
   }
  
   .form{

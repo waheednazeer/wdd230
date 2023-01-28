@@ -91,6 +91,10 @@
 .heading-2{
   font-size: 20px;
 }
+.form-heading{
+  font-size: 20px;
+  margin-left: 20px;
+}
 .logo{
   width: 150px;
   height: auto;
