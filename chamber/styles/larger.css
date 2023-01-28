@@ -54,12 +54,12 @@
     row-gap: 30px;
   }  
   .sidebar{
-    width: 93%;
+    width: 100%;
     align-self: flex-start;
     background-color: yellowgreen;
     position:initial;
-    height: 400px;
-   
+    height: auto;
+   padding-bottom: 20px;
   }
   
     
@@ -71,4 +71,28 @@
   transform: none;
   transition: none;
   }
+  /*---------join.html--------*/
+  .form{
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+    margin: 0 20px;
+ }
+ .input-msg{
+  width: 100%;
+}
+.output-msg{
+  width: 100%;
+  
+}
+.heading{
+  font-size: 25px;
+}
+.heading-2{
+  font-size: 20px;
+}
+.logo{
+  width: 150px;
+  height: auto;
+}
  }
