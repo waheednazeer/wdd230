@@ -41,37 +41,75 @@
             <img class="logo" src="images/gulberg-logo.webp" alt="waheed nazir">
     </header>
     
-    <main class="main-join">
+    <main>
         <h4 class="form-heading">Gulberg Membership Form</h4><hr>
-        <form action="" method="get" action="thanks.html">
-            <fieldset>
-                <legend>Member Information</legend>
-                <label class="top">First Name:* <input type="text" name="fname" required></label>
-                <label class="top">Last Name:* <input type="text" name="lname" required></label>
-                <label class="top">Title: <input type="text" name="title"></label>
-                <label class="top">Email* <input type="text" name="email" placeholder="someone@gmail.com" required></label>
-                <label class="top">Cell Phone: <input type="tel" name="phone" placeholder="1235551234"></label>
-                <label class="top">Company Name:* <input type="text" name="company"  required></label>
-                <label class="top">Website <input type="url" name="url" placeholder="https://"></label>
-    
-            </fieldset>
-            <fieldset>
-                <legend>Memership Level Selection</legend>
-                <div>Membership Levels</div>
-                <label class="sbs"> <input type="radio" name="level" value="non-profit">NP Membership</label>
-                <label class="sbs"> <input type="radio" name="level" value="bronze">Bronze Membership.</label>
-                <label class="sbs"> <input type="radio" name="level" value="silver">Silver Membership.</label>
-                <label class="sbs"> <input type="radio" name="level" value="gold">Gold Membership.</label>
-       
-            </fieldset>
-            <fieldset>
-                <legend>Funding</legend>
-                <label class="top">Anticipated Completion Date <input type="date" name="completeDate"></label>
-                               
-            </fieldset>
-            <input type="submit" value="Propose My Course" class="submitBtn">
-    
-        </form>
+    <div class="form">
+        
+        <div class="input-msg">
+          <form>
+                <fieldset>
+                    <legend>Member Information</legend>
+                    <label class="top">First Name:* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name:* <input type="text" name="lname" required></label>
+                    <label class="top">Title: <input type="text" name="title"></label>
+                    <label class="top">Email* <input type="text" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Cell Phone: <input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label class="top">Company Name:* <input type="text" name="company"  required></label>
+                    <label class="top">Website <input type="url" name="url" placeholder="https://"></label>
+
+                    <h5>Memership Level Selection</h5>
+                    <label class="sbs"> <input type="radio" name="mbrlevel" value="non-profit"> Non-profit Membership </label>
+                    <label class="sbs"> <input type="radio" name="mbrlevel" value="bronze"> Bronze Membership </label>
+                    <label class="sbs"> <input type="radio" name="mbrlevel" value="silver"> Silver Membership </label>
+                    <label class="sbs"> <input type="radio" name="mbrlevel" value="gold"> Gold Membership </label>
+                    <label for="comments" class="top">Brief information about company:<textarea id="comments" name="comments" required></textarea></label>
+                </fieldset>
+                   
+                <input type="submit" value="Apply for Membership" class="submitBtn">
+            </form>
+        </div>
+                <div class="output-msg">
+            
+                <fieldset>
+                <legend> Membership Details</legend>
+                <p><strong>Non-Profit Membership:</strong><br>
+                    Mebership Cost: Free <br>
+                    Renewal Fee: 5$ <br>
+                    Benefits: <br>
+                    NP members have access to Chamber directory. <br>
+                    Free particpaion in free events.
+                </p>
+
+                <p><strong>Bronze Membership:</strong><br>
+                    Mebership Cost: 50$ <br>
+                    Renewal Fee: 25$ <br>
+                    Benefits: <br> 
+                    Bronze members have 30% discount in local FAIR particiaption fee. <br>
+                    20% discount for paid events particiaption
+                </p>
+                <p><strong>Silver Membership:</strong><br>
+                    Mebership Cost: 150$ <br>
+                    Renewal Fee: 75$ <br>
+                    Benefits: <br> 
+                    Silver members have 50% discount in local FAIR particiaption fee. <br>
+                    40% discount for paid events particiaption. <br>
+                    40% disocunt for community club memberships. <br>
+                    Visa facilitation for internaional business tours.
+                </p>
+                <p><strong>Gold Membership:</strong><br>
+                    Mebership Cost: 300$ <br>
+                    Renewal Fee: 200$ <br>
+                    Benefits: <br> 
+                    Gold members have 90% discount in local FAIR particiaption fee. <br>
+                    80% discount for paid events particiaption. <br>
+                    80% disocunt for community club memberships. <br>
+                    Visa facilitation for internaional business tours and 20% on airline tickets.
+                </p>
+                
+            
+                </fieldset>  
+        </div>
+    </div>
     </main>
        
     <footer>
