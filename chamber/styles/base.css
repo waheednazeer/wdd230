@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+:root{
+  --field-bord-color: 2px solid #445ba9;
+  --lgnd-color: #445ba9;
+  --card-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
+}
 
 body {
     width: auto;
@@ -346,3 +350,114 @@ body {
   transform: scale(0.6);
   transition: .5s ease;
   }
+
+  /*------------------------below is css code for Join.html page*/
+  /*--------------Form----------------------*/
+  .form-heading{
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-bottom: -2px;
+    
+  }
+ 
+  .form{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    margin: 0 70px;
+    
+  }
+  .input-msg{
+    width: 50%;
+    
+  }
+  .output-msg{
+    width: 50%;
+    
+  }
+  
+  form fieldset{
+    margin:0 0;
+    border: var(--field-bord-color);
+    border-radius: 10px;
+    padding: .5px 2%;
+    
+}
+form legend{
+    color: var(--lgnd-color);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+.output-msg legend{
+  color: var(--lgnd-color);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    
+}
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: blue;
+    font-size: .85rem;
+}
+form label.top input, form label.top select, form label.top textarea{
+    
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 93%;
+    background-color: rgba(0,0,0,0.1);
+}
+.output-msg fieldset{
+    margin:0 0;
+    border: var(--field-bord-color);
+    border-radius: 10px;
+    padding: .5px 2%;
+    
+}
+.ratinglabels {
+	display: flex;
+	justify-content: space-around;
+  width: 75%;
+  margin-top: -23px;
+  
+}
+.ratinglabels {
+	font-size: 0.8rem;
+	
+}
+#r {
+ 
+	margin-bottom: 0;
+	padding-bottom: 0;
+	width: 69%;
+  
+}
+#rating{
+  color:red;
+}
+
+ 
+  form input.submitBtn{
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: .75rem 0 2rem 2%;
+    width: 96%;
+    max-width: 96%;
+}
+form label.top input:required{
+    border-left: red solid 6px;
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+  /*---------------Table----------------------*/
+ 
+
+  
