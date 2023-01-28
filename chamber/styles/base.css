@@ -403,7 +403,7 @@ form label.top input, form label.top select, form label.top textarea{
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    width: 93%;
+    width: 100%;
     background-color: rgba(0,0,0,0.1);
 }
 
@@ -461,6 +461,11 @@ margin-bottom: -5px;
 }
 
 
-
+/*--------------thanks.html page*/
+.thanks, .thanks ~ p{
+  margin-top: 50px;
+  color: blue;
+  text-align: center;
+}
 
 
