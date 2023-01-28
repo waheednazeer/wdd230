@@ -414,27 +414,7 @@ form label.top input, form label.top select, form label.top textarea{
     padding: .5px 2%;
     height: 91%;
 }
-.ratinglabels {
-	display: flex;
-	justify-content: space-around;
-  width: 75%;
-  margin-top: -23px;
-  
-}
-.ratinglabels {
-	font-size: 0.8rem;
-	
-}
-#r {
- 
-	margin-bottom: 0;
-	padding-bottom: 0;
-	width: 69%;
-  
-}
-#rating{
-  color:red;
-}
+
 
  
   form input.submitBtn{
