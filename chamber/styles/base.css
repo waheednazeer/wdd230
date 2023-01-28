@@ -412,7 +412,7 @@ form label.top input, form label.top select, form label.top textarea{
     border: var(--field-bord-color);
     border-radius: 10px;
     padding: .5px 2%;
-    height: 91%;
+    height: 90.6%;
 }
 
 
@@ -450,9 +450,10 @@ form label.sbs, input{
   margin-right: 10px;
   font-size: 0.8rem;
 }
-.input-msg h5{
+.input-msg p{
 color: blue;
-margin-bottom: -5px;
+margin-bottom: -7px;
+font-size: 0.8rem;
 }
 
 .output-msg p{
