@@ -1,5 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 :root{
   --field-bord-color: 2px solid #445ba9;
   --lgnd-color: #445ba9;
@@ -352,55 +357,28 @@ body {
   }
 
   /*------------------------below is css code for Join.html page*/
-  /*--------------Form----------------------*/
-  .form-heading{
-    margin-top: 40px;
-    margin-left: 70px;
-    margin-bottom: -2px;
-    
-  }
- 
-  .form{
-    display: flex;
-    flex-direction: row;
-    column-gap: 50px;
-    margin: 0 70px;
-    
-  }
-  .input-msg{
-    width: 50%;
-    
-  }
-  .output-msg{
-    width: 50%;
-    
-  }
-  
+  .main-join {
+    padding: 0 2%;
+    min-height: 20rem;
+}
   form fieldset{
-    margin:0 0;
-    border: var(--field-bord-color);
+    margin:2rem 0;
+    border: 1px solid #445ba9;
     border-radius: 10px;
     padding: .5px 2%;
-    
 }
 form legend{
-    color: var(--lgnd-color);
+    color: #445ba9;
     margin: 0 1rem;
     padding: 0 .5rem;
-}
-.output-msg legend{
-  color: var(--lgnd-color);
-    margin: 0 1rem;
-    padding: 0 .5rem;
-    
 }
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: blue;
-    font-size: .85rem;
+    color: red;
+    font-size: .8rem;
 }
-form label.top input, form label.top select, form label.top textarea{
+form label.top input, form label.top select{
     
     display: block;
     font-size: 1rem;
@@ -408,48 +386,23 @@ form label.top input, form label.top select, form label.top textarea{
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    width: 93%;
+    max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
 }
-.output-msg fieldset{
-    margin:0 0;
-    border: var(--field-bord-color);
-    border-radius: 10px;
-    padding: .5px 2%;
-    
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
 }
-.ratinglabels {
-	display: flex;
-	justify-content: space-around;
-  width: 75%;
-  margin-top: -23px;
-  
-}
-.ratinglabels {
-	font-size: 0.8rem;
-	
-}
-#r {
- 
-	margin-bottom: 0;
-	padding-bottom: 0;
-	width: 69%;
-  
-}
-#rating{
-  color:red;
-}
-
- 
-  form input.submitBtn{
+form input.submitBtn{
     border: none;
     background-color: #9c2c13;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: .75rem 0 2rem 2%;
+    margin: 0 0 2rem 2%;
     width: 96%;
-    max-width: 96%;
+    max-width: 20rem;
 }
 form label.top input:required{
     border-left: red solid 6px;
@@ -457,7 +410,5 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: green solid 6px;
 }
-  /*---------------Table----------------------*/
- 
 
-  
+
