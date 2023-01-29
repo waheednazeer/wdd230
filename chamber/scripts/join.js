@@ -19,18 +19,3 @@ function darkModeToggle() {
     const mainArea = document.querySelector("main");
     mainArea.classList.toggle("dark");
   }
-// for visitor counter
-let counterRecord = document.querySelector(".counter");
-let visitCount = Number(window.localStorage.getItem("visits-ls"));
-
-console.log(visitCount);
-// Check if page_view entry is present
-if (visitCount !== 0) {
-  counterRecord.textContent = visitCount;
-  
-} 
-else{
-  counterRecord.innerHTML = "Welcome for your first visit!";
-}
-visitCount+=1;
-localStorage.setItem("visits-ls", visitCount);
