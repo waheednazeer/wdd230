@@ -23,7 +23,7 @@ function darkModeToggle() {
 let counterRecord = document.querySelector(".counter");
 let visitCount = Number(window.localStorage.getItem("visits-ls"));
 
-console.log(visitCount);
+
 // Check if page_view entry is present
 if (visitCount !== 0) {
   counterRecord.textContent = visitCount;
