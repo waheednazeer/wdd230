@@ -10,9 +10,7 @@
 
 body {
     width: auto;
-    font-family: 'Lato', sans-serif, serif;
-    font-size: medium;
-    
+    font-family: 'Lato', sans-serif, serif;   
   }
   .navigation-menu{
     display: flex;
@@ -139,10 +137,7 @@ body {
     font-size: 20px;
     
   }
-  h2{
-    
-    text-align: center;
-  }
+ 
    
 
 .main-index hr{
