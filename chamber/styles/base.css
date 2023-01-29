@@ -469,7 +469,12 @@ font-size: 0.8rem;
 
 .output-msg p{
   font-size: 16px;
-  padding-top: 20px;
+  margin-bottom: -12px;
+}
+
+.output-msg li{
+  font-size: 16px;
+ padding-top: 5px;
 }
 
 
