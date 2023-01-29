@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-/*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 :root{
@@ -396,7 +393,7 @@ form label.top, form div{
     font-size: .85rem;
 }
 form label.top input, form label.top select, form label.top textarea{
-    -webkit-appearance: none;
+   
     display: block;
     font-size: 1rem;
     border: solid 1px #999;
