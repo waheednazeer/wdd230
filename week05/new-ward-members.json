@@ -1,0 +1,29 @@
+{
+	"name": "Waheed",
+	"Arrival Date": "25 - Jan - 1980",
+	"Family Numbers": 4,
+	"Visited by bishopric": true,
+	"Family Members": [
+	  	{
+			"Name": "Nazir",
+			"Gender": "Male",
+			"Birth": "03-March-1944"
+		},
+		{
+			"Name": "Mumtaz",
+			"Gender": "Female",
+			"Birth": "03-March-1961"
+		},
+
+		{
+			"Name": "Saeed",
+			"Gender": "Male",
+			"Birth": "03-March-1990"
+		},
+		{
+			"Name": "Waheed",
+			"Gender": "Male",
+			"Birth": "03-March-1980"
+		}
+	]
+}
