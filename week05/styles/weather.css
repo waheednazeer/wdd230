@@ -1,9 +1,14 @@
 
-main{
+#weather-temp{
+    padding-top: 50px;
+}
+div{
    display: flex;
    flex-direction: row;
     font: 16px;
     color: navy;
+    align-items: center;
+    margin-left: 200px;
 }
 
     
