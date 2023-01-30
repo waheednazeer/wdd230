@@ -4,7 +4,7 @@ const cards = document.querySelector('.cards');
 async function getProphetData() {
 	const response = await fetch(url);
 	const data = await response.json();
-	console.table(data.prophets);
+	
 	displayProphets(data.prophets); 
   }
   
@@ -27,7 +27,7 @@ async function getProphetData() {
 
 
 		// Build the h2 content out to show the prophet's full name
-		fullName.textContent = `${prophet.name} ${prophet.lastname}`;
+		fullName.innerHTML = `<h2>${prophet.name} ${prophet.lastname} </h2>`;
 		birthday.innerHTML = `<span class="label">Birth:</span> ${prophet.birthdate}`;
 		death.innerHTML= `<span class="label">Death:</span> ${prophet.death}`;
 		birthplace.innerHTML= `<span class="label">Birthplace:</span> ${prophet.birthplace}`;
