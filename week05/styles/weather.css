@@ -1,14 +1,35 @@
 
-#weather-temp{
-    padding-top: 50px;
+body{
+    margin: 0 0;
 }
+main{
+    margin: 30px;
+    height: 70vh;
+    border: 2px solid black;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color:white ;
+    padding: 2px;
+}
+
+
 div{
    display: flex;
    flex-direction: row;
     font: 16px;
     color: navy;
     align-items: center;
-    margin-left: 200px;
+   margin-left: 300px;
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+    background-color: black;
+    color:white ;
+    padding: 6px;
 }
 
     
