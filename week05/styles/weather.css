@@ -1,6 +1,7 @@
 
 main{
-   
+   display: flex;
+   flex-direction: row;
     font: 16px;
     color: navy;
 }
