@@ -180,6 +180,10 @@ body {
    
      
   }
+  #weather-icon{
+    width: 48px;
+    height: 48px;
+  }
 
   section p{
     padding-left: 20px;
