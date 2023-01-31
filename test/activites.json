@@ -1,4 +1,9 @@
 {
+    "week05": [
+        "week05/new-ward-members.json.html","week05/prophets.html", "week05/weather.html"
+    ],
+
+
 	"week01": [
 		"week01/chamber-site-plan.html", "week01/holygrail.html", "week01/media-query.html"
 	],
@@ -11,10 +16,7 @@
     ],
     "week04": [
         "week04/form.html", "week04/tablebuild.html"
-    ],
-    "week05": [
-        "week05/new-ward-members.json","week05/prophets.html", "week05/weather.html"
     ]
-
+   
 
 }
