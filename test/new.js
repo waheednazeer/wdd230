@@ -6,11 +6,11 @@ const jweek04=document.querySelector('#jweek04');
 const jweek05=document.querySelector('#jweek05');
 
 
-const myFile = 'activities.json';
+const url = 'new.json';
 
 async function apiFetch() {
     try {
-      const response = await fetch(myFile);
+      const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
 
