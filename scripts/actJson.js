@@ -27,8 +27,8 @@ async function apiFetch() {
 
   function displayResults(data) {
     //for weeks;
-    let keysArray= Object.keys(data.weeks.week01);
-    let valuesArray= Object.values(data.weeks.week01);
+    let keysW1= Object.keys(data.weeks.week01);
+    let valuesW1= Object.values(data.weeks.week01);
 
     let keysW2= Object.keys(data.weeks.week02);
     let valuesW2= Object.values(data.weeks.week02);
@@ -42,68 +42,25 @@ async function apiFetch() {
     let keysW5= Object.keys(data.weeks.week05);
     let valuesW5= Object.values(data.weeks.week05);
 
-    let i=0;
-
-    keysArray.forEach((key) =>{
-        console.log(key);
-
-            let text= "  |";
-            let weekLink=document.createElement('a');
-            let link = document.createTextNode(key.concat(text));
-            weekLink.href = valuesArray[i];
-                i+=1;
-            weekLink.appendChild(link);
-            jweek01.appendChild(weekLink);
-    });
-i=0;
-    keysW2.forEach((key) =>{
-        console.log(key);
-
-            let text= "  |";
-            let weekLink=document.createElement('a');
-            let link = document.createTextNode(key.concat(text));
-            weekLink.href = valuesW2[i];
-                i+=1;
-            weekLink.appendChild(link);
-            jweek02.appendChild(weekLink);
-    });
-  i=0;
-    keysW3.forEach((key) =>{
-        console.log(key);
-
-            let text= "  |";
-            let weekLink=document.createElement('a');
-            let link = document.createTextNode(key.concat(text));
-            weekLink.href = valuesW3[i];
-                i+=1;
-            weekLink.appendChild(link);
-            jweek03.appendChild(weekLink);
-    });
-    i=0;
-    keysW4.forEach((key) =>{
-        console.log(key);
-
-            let text= "  |";
-            let weekLink=document.createElement('a');
-            let link = document.createTextNode(key.concat(text));
-            weekLink.href = valuesW4[i];
-                i+=1;
-            weekLink.appendChild(link);
-            jweek04.appendChild(weekLink);
-    }); 
-    i=0;
-    keysW5.forEach((key) =>{
-        console.log(key);
-
-            let text= "  |";
-            let weekLink=document.createElement('a');
-            let link = document.createTextNode(key.concat(text));
-            weekLink.href = valuesW5[i];
-                i+=1;
-            weekLink.appendChild(link);
-            jweek05.appendChild(weekLink);
-    });   
-          
-    
-                 
+    printKeys(keysW1, valuesW1, jweek01);
+    printKeys(keysW2, valuesW2, jweek02);
+    printKeys(keysW3, valuesW3, jweek03);
+    printKeys(keysW4, valuesW4, jweek04);
+    printKeys(keysW5, valuesW5, jweek05);  
+                   
 }
+
+function printKeys(keys,values, jweek){
+    let i=0;
+keys.forEach((key) =>{
+    console.log(key);
+
+        let text= "  |";
+        let weekLink=document.createElement('a');
+        let link = document.createTextNode(key.concat(text));
+        weekLink.href = values[i];
+            i+=1;
+        weekLink.appendChild(link);
+        jweek.appendChild(weekLink);
+});
+}   
