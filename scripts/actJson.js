@@ -55,7 +55,7 @@ async function apiFetch() {
             weekLink.appendChild(link);
             jweek01.appendChild(weekLink);
     });
-
+i=0;
     keysW2.forEach((key) =>{
         console.log(key);
 
@@ -67,7 +67,7 @@ async function apiFetch() {
             weekLink.appendChild(link);
             jweek02.appendChild(weekLink);
     });
-  
+  i=0;
     keysW3.forEach((key) =>{
         console.log(key);
 
@@ -79,7 +79,7 @@ async function apiFetch() {
             weekLink.appendChild(link);
             jweek03.appendChild(weekLink);
     });
-    
+    i=0;
     keysW4.forEach((key) =>{
         console.log(key);
 
@@ -91,6 +91,7 @@ async function apiFetch() {
             weekLink.appendChild(link);
             jweek04.appendChild(weekLink);
     }); 
+    i=0;
     keysW5.forEach((key) =>{
         console.log(key);
 

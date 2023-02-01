@@ -1,9 +1,9 @@
 {
 	"weeks": {
 		"week01": {
-			"chamber": "week01/chamber-site-plan.html",
-			"holygrail": "week01/holygrail.html",
-			"media": "week01/media-query.html"
+			"Chamber": "week01/chamber-site-plan.html",
+			"Holygrail": "week01/holygrail.html",
+			"Media": "week01/media-query.html"
 		},
 
 		"week02": {
@@ -31,7 +31,7 @@
             "CodePen": "https://codepen.io/waheednazir/pen/RwBBpMG?editors=1100",
             "JSON": "week05/new-ward-members.json",
             "Presidents": "week05/prophets.html",
-            "Weather API":"https://waheednazeer.github.io/wdd230/week05/weather.html"
+            "Weather API":"week05/weather.html"
 
         }
 
