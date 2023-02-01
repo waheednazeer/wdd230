@@ -1,0 +1,41 @@
+{
+	"weeks": {
+		"week01": {
+			"Chamber": "week01/chamber-site-plan.html",
+			"Holygrail": "week01/holygrail.html",
+			"Media": "week01/media-query.html"
+		},
+
+		"week02": {
+			"BOM": "week02/bom.html",
+			"Design": "week02/design.html",
+			"Responsive": "week02/responsive.html",
+			"Shopping": "week02/shopping.html",
+			"Dom": "week02/dom.html"
+		},
+
+        "week03": {
+			"WebP": "week03/images/landscape.webp", 
+            "Lazyload": "week03/lazyload.html",
+            "Responsive Img ": "https://codepen.io/waheednazir/full/yLqowQa",
+            "BOM": "week03/bom.html"
+
+		},
+        "week04": {
+			"Pseudo": "https://codepen.io/waheednazir/pen/gOjvbJN?editors=0100",
+            "Combinators": "images/css-combinators.webp",
+            "Tables": "week04/tablebuild.html",
+            "Forms": "week04/index.html"
+		},
+        "week05":{
+            "CodePen": "https://codepen.io/waheednazir/pen/RwBBpMG?editors=1100",
+            "JSON": "week05/new-ward-members.json",
+            "Presidents": "week05/prophets.html",
+            "Weather API":"week05/weather.html"
+
+        }
+
+
+	}
+}
+  
