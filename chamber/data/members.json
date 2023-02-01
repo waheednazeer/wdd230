@@ -1,38 +1,64 @@
 {
-	"weeks": {
-		"week01": {
-			"Chamber": "week01/chamber-site-plan.html",
-			"Holygrail": "week01/holygrail.html",
-			"Media": "week01/media-query.html"
+	"members": {
+		"mbr1": {
+			"Name": "Net Link Technology Solutions",
+			"Membership": "Silver",
+			"Address": "94L ST-34 L-Block Gulberg ISB",
+			"Phone": "(051) 111-9999",
+			"Logo": "logo.webp",
+			"Website": "http://netlink.com.pk"
 		},
 
-		"week02": {
-			"BOM": "week02/bom.html",
-			"Design": "week02/design.html",
-			"Responsive": "week02/responsive.html",
-			"Shopping": "week02/shopping.html",
-			"Dom": "week02/dom.html"
+		"mbr2": {
+			"Name": "TerraLink",
+			"Membership": "Silver",
+			"Address": "F-09 Abbas Arcade 5th Rd RWP",
+			"Phone": "(051) 222-8888",
+			"Logo": "logo.webp",
+			"Website": "http://www.terralink.com.pk/"
 		},
 
-        "week03": {
-			"WebP": "week03/images/landscape.webp", 
-            "Lazyload": "week03/lazyload.html",
-            "Responsive Img ": "https://codepen.io/waheednazir/full/yLqowQa",
-            "BOM": "week03/bom.html"
+        "mbr3": {
+			"Name": "Circle Net Communications",
+			"Membership": "Gold",
+			"Address": "39-A St 38-A F-10/4 ISB",
+			"Phone": "(051) 221-3162",
+			"Logo": "logo.webp",
+			"Website": "http://circlenet.com.pk"
 
 		},
-        "week04": {
-			"Pseudo": "https://codepen.io/waheednazir/pen/gOjvbJN?editors=0100",
-            "Combinators": "images/css-combinators.webp",
-            "Tables": "week04/tablebuild.html",
-            "Forms": "week04/index.html"
+        "mbr4": {
+			"Name": "wi-tribe Pakistan",
+			"Membership": "Silver",
+			"Address": "14-N F-8 Markaz ISB",
+			"Phone": "(051) 111 187 423",
+			"Logo": "logo.webp",
+			"Website": "http://wi-tribe.pk"
 		},
-        "week05":{
-            "CodePen": "https://codepen.io/waheednazir/pen/RwBBpMG?editors=1100",
-            "JSON": "week05/new-ward-members.json",
-            "Presidents": "week05/prophets.html",
-            "Weather API":"week05/weather.html"
+        "mbr5":{
+            "Name": "Sky Telecom",
+			"Membership": "Silver",
+			"Address": "Blue Area ISB",
+			"Phone": "(051) 111-1444",
+			"Logo": "logo.webp",
+			"Website": "http://netlink.com.pk"
+        },
+		"mbr6":{
+            "Name": "HosterPK",
+			"Membership": "Silver",
+			"Address": "208 2nd-UP Evacuee Complex F-5/1 ISB",
+			"Phone": "(051) 895-0185",
+			"Logo": "logo.webp",
+			"Website": "https://www.hosterpk.com"
 
+        },
+		"mbr7":{
+			"Name": "Telenor Pakistan (Pvt.)",
+			"Membership": "Gold",
+			"Address": "55 B-Block Gulberg Greens ISB",
+			"Phone": "(051) 111 345 100",
+			"Logo": "logo.webp",
+			"Website": "https://www.telenor.com.pk"
         }
 
 
