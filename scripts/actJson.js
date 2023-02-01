@@ -53,8 +53,7 @@ async function apiFetch() {
 function printKeys(keys,values, jweek){
     let i=0;
 keys.forEach((key) =>{
-    console.log(key);
-
+   
         let text= "  |";
         let weekLink=document.createElement('a');
         let link = document.createTextNode(key.concat(text));
