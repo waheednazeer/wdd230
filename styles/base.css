@@ -168,36 +168,35 @@ body {
 #jweek01 a, #jweek02 a, #jweek03 a, #jweek04 a, #jweek05 a {
   text-decoration: none;
   margin-left: 0;
-  
-  
+   
 }
 
   /*---------END--------------------------*/
+  #card-1 p{
+    
+    padding-left: 20px;
+  }
+  #card-3 p{
+   
+    padding-left: 20px;
+  }
 
-  #card-1 ul, #card-2 ul{
+  #card-2 ul{
     list-style: none;
   }
-  #card-1 li, #card-2 li{
+  #card-2 li{
     margin-left: -20px;
     padding-top: 5px;
     padding-bottom:5px;
      
   }
-  #card-3 a{
-    padding-left: 20px;
-   
-     
-  }
+
   #weather-icon{
     width: 48px;
     height: 48px;
   }
 
-  section p{
-    padding-left: 20px;
-    padding-bottom: 5px ;
-    
-  }
+  
   #card-1 a{
    
     padding-right: 5px;
