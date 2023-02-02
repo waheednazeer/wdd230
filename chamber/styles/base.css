@@ -482,4 +482,112 @@ font-size: 0.8rem;
 .thanks-main{
   height: 44vh;
 }
+/*-----------------------directory.html------------------*/
 
+
+.directory-main{
+	margin: 0 auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	max-width: 100%;
+	background-color: #eee;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bbb;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+
+.main-cards section {
+	margin: 0.5rem;
+}
+
+.main-cards section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #ccc;
+}
+
+.main-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	align-items: center;
+}
+
+.main-cards section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.main-cards section > * {
+	margin: 0.1rem;
+}
+
+.main-cards h4 {
+	font-family: "Caveat", cursive;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 0.8fr 1fr 200px 100px 250px;
+  text-align: left;
+  column-gap: 2px;
+	margin: auto;
+	padding: 0;
+  width: 100%;
+ 
+}
+.list section p{
+text-align: left;
+}
+.list section a{
+  margin-top: 10px;
+  padding: 0;
+  }
+
+.list section > * {
+	margin: 0 0;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
+}
+
+.main-cards section h4 {
+	font-size: 1.5rem;
+}
+
+.main-cards section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.9rem;
+ 
+}
+
+.main-cards img {
+	height: 75px;
+	max-width: 100%; /* Images are jerks - Seattle*/
+}
