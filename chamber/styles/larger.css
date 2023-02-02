@@ -96,4 +96,26 @@
   width: 150px;
   height: 150px;
 }
+
+/*-----------directory.html------------*/
+.list {
+	display: flex;
+	flex-direction: column;
+ 
+}
+.list section {
+	display: flex;
+	flex-direction: column;
+  text-align: left;
+margin-top: 25px;
+
+  
+ 
+}
+.main-cards section a {
+	padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+
  }

@@ -6,7 +6,7 @@
   --field-bord-color: 2px solid #445ba9;
   --lgnd-color: #445ba9;
   --card-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
-  --hdr-bg-color:  rgb(131, 131, 216);
+  --hdr-bg-color:   rgb(27, 27, 112);
 }
 
 
@@ -546,7 +546,7 @@ font-size: 0.8rem;
 
 .list section {
 	display: grid;
-	grid-template-columns: 0.8fr 1fr 200px 100px 250px;
+	grid-template-columns: 0.8fr 1fr .4fr .2fr .6fr;
   text-align: left;
   column-gap: 2px;
 	margin: auto;
