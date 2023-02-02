@@ -6,6 +6,7 @@
   --field-bord-color: 2px solid #445ba9;
   --lgnd-color: #445ba9;
   --card-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
+  --hdr-bg-color:  rgb(131, 131, 216);
 }
 
 body {
@@ -498,7 +499,7 @@ font-size: 0.8rem;
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #bbb;
+	background-color: var(--hdr-bg-color);
 	text-align: center;
 }
 
