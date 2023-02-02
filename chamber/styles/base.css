@@ -546,7 +546,7 @@ font-size: 0.8rem;
 
 .list section {
 	display: grid;
-	grid-template-columns: 0.8fr 1fr .4fr .2fr .6fr;
+	grid-template-columns: 0.8fr 1fr .5fr .2fr .6fr;
   text-align: left;
   column-gap: 2px;
 	margin: auto;
