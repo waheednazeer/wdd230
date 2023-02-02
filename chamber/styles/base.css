@@ -593,5 +593,5 @@ text-align: left;
 	height: 75px;
   border-radius: 10px;
   box-shadow: var(--card-shadow);
-	width: 100%; /* Images are jerks - Seattle*/
+	width: auto; /* Images are jerks - Seattle*/
 }
