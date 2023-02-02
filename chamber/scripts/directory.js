@@ -6,7 +6,7 @@ async function getProphetData() {
 	const data = await response.json();
 	
 	displayProphets(data.members); 
-    console.log(data)
+    //console.log(data)
   }
   
   getProphetData();
@@ -17,7 +17,7 @@ async function getProphetData() {
 		// Create elements to add to the div.cards element
         let card = document.createElement('section');
 		
-        // parameters
+        // elements
         let logo = document.createElement('img');
 		let name = document.createElement('p'); // fill in the blank
 		let address=document.createElement('p');
