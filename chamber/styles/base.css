@@ -574,7 +574,7 @@ text-align: left;
 }
 
 .list section:nth-child(even) {
-	background-color: #bed;
+	background-color: yellowgreen;
 }
 
 .main-cards section h4 {
