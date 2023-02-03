@@ -492,7 +492,7 @@ font-size: 0.8rem;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
 	max-width: 100%;
-	background-color: #eee;
+	
 	font-family: Roboto, Helvetica, sans-serif;
 }
 
@@ -517,7 +517,7 @@ font-size: 0.8rem;
 .main-cards section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: yellowgreen;
+	background-color: rgb(248, 248, 246);
 }
 
 .main-cards {
@@ -575,9 +575,12 @@ text-align: left;
 	font-family: Roboto, Helvetica, sans-serif;
 }
 
-.list section:nth-child(even) {
-	background-color: yellowgreen;
+.list section:nth-child(even){
+  
+	background-color: rgb(209, 232, 236);
 }
+
+
 
 .main-cards section h4 {
 	font-size: 1.5rem;
@@ -586,7 +589,7 @@ text-align: left;
 .main-cards section a {
 	font-family: "Roboto", Arial, sans-serif;
 	font-size: 0.9rem;
- 
+ color: black;
 }
 
 .main-cards img {
