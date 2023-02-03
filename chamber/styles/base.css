@@ -594,7 +594,7 @@ text-align: left;
 
 .main-cards img {
 	height: 75px;
+  border: 2px solid rgb(163, 162, 162);
   border-radius: 10px;
-  box-shadow: var(--card-shadow);
-	width: auto; /* Images are jerks - Seattle*/
+  width: auto; /* Images are jerks - Seattle*/
 }
