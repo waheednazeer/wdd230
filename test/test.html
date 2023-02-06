@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="test.css">
-    <title>JSON TESTING</title>
+    <title>Document</title>
 </head>
 <body>
-    <header><h1>JSON FILE TESTING FOR PORTAL ACTIVITES</h1></header>
-    <main>
 
-        <section id="activities"></section>
-    </main>
- <script src="actJson.js"></script>   
+
+    <script>
+        let url='https://api.openweathermap.org/data/2.5/forecast?q=islamabad&appid=7c4be2e672b7473cb72ef14c53adfb41&units=metric';
+        async function apiFetch(){
+            let response= await fetch(url);
+            let data=await response.json();
+            console.log(data);
+        }
+        apiFetch();
+    </script>
+    
 </body>
 </html>

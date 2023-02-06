@@ -1,0 +1,38 @@
+
+#icon, #iconN1, #iconN2{
+    width: 100px;
+    height:auto;
+    display:block;
+   margin: 0 auto;
+}
+
+.cards{
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+   
+    
+}
+#one,#two,#three{
+    border: 2px solid blue;
+    padding: 10px;
+    text-align: center;
+}
+#one{
+    grid-column: 1/2;
+    
+}
+#two{
+    grid-column: 2/3;
+    
+}
+#three{
+    grid-column: 3/4;
+}
+input{
+    display: block;
+    width: 350px;
+    margin:0 0;
+    
+}
