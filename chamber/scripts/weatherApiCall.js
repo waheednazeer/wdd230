@@ -49,9 +49,7 @@ function displayResults(data){
 getWeather();
 
 function getWeather(){
-    const city=document.querySelector('#city').value;
-    const country=document.querySelector('#country').value;
-    
+        
     const apiCall=`https://api.openweathermap.org/data/2.5/forecast?q=Islamabad,pakistan&APPID=ded02857eed646cffb678b4e38d1dde4&units=metric`;
     fetchAPI(apiCall);
 }

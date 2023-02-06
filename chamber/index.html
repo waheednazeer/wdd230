@@ -64,14 +64,27 @@
                 Visit Count: <span class="counter"></span>
                 </p>
             </section>
-            <section id="weather"> 
+            <div id="weather"> 
                 <h3>Weather</h3>
-                <h4>Temperature</h4>
-                <p>Humidity<br>
-                    Phone: +92 51 44445556 <br>
-                <a href="#">visit website</a>
-                </p>
-            </section>
+                <div class="weatherCards">
+                    <div id="one"> 
+                        <img id="iconN0" src="" alt="">
+                        <p id="desN0"></p>
+                        <p id="dayN0"> </p>  
+                    </div>
+                    <div id="two">
+                        <img id="iconN1" src="" alt="">
+                        <p id="desN1"></p>
+                        <p id="dayN1"></p>
+                    </div>
+                    <div id="three">
+                        <img id="iconN2" src="" alt=""> 
+                        <p id="desN2"></p>
+                        <p id="dayN2"></p>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
         <h2>Companies Highlights</h2>
@@ -121,8 +134,7 @@
             Last Modified: <span id="lastmodified"> </span>
         </p>
     </footer>
-<script src="scripts/getDates.js">
-    
-</script>
+<script src="scripts/getDates.js"></script>
+<script src="scripts/weatherApiCall.js"></script>
 </body>
 </html>

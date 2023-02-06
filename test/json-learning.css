@@ -1,31 +1,28 @@
 
-#icon, #iconN1, #iconN2{
+#iconN0, #iconN1, #iconN2{
     width: 100px;
     height:auto;
     display:block;
    margin: 0 auto;
 }
 
-.cards{
-    width: 900px;
+.weatherCards{
+    width: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 20px;
-   
-    
+        
 }
 #one,#two,#three{
     border: 2px solid blue;
     padding: 10px;
     text-align: center;
+    font-size: 16px;
 }
 #one{
-    grid-column: 1/2;
-    
+    grid-column: 1/2;   
 }
 #two{
-    grid-column: 2/3;
-    
+    grid-column: 2/3;   
 }
 #three{
     grid-column: 3/4;

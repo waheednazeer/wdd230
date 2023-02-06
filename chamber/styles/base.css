@@ -193,7 +193,7 @@ body {
     display: grid;
     grid-template-columns: 2.1fr 1fr;
     justify-items: center;
-    column-gap: 40px;
+    column-gap: 30px;
     margin-bottom: 35px;
     margin: 0 40px;   
   }
@@ -206,6 +206,8 @@ body {
     box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
     justify-items: center;
   }
+
+  /*****************Weather Data*******************/
   #weather{
     
     grid-column: 2 / 3;
@@ -216,12 +218,53 @@ body {
     border: 1px solid;
     box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
    }
+   #iconN0, #iconN1, #iconN2{
+    width: 70px;
+    height:auto;
+    display:block;
+   margin: 0 auto;
+   
+}
+#desN0, #desN1, #desN2{
+  text-transform: capitalize;
+}
+
+.weatherCards{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+        
+}
+#one,#two,#three{
+    
+    padding: 1px;
+    text-align: center;
+    font-size: 16px;
+}
+#two{
+   border-left: 2px solid #ccc;
+   border-right: 2px solid #ccc;
+}
+
+#one{
+    grid-column: 1/2;   
+}
+#two{
+    grid-column: 2/3;   
+}
+#three{
+    grid-column: 3/4;
+}
+
+
+
+   /**********************above is weather data**************************/
   
   .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    column-gap: 40px;
+    column-gap: 30px;
     margin-bottom: 35px;
     margin: 0 40px;
   }
