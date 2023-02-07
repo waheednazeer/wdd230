@@ -26,7 +26,6 @@ async function getProphetData() {
 		let web=document.createElement('a');
 
 
-		// Build the h2 content out to show the prophet's full name
 		logo.setAttribute('src', member.logo);
 		logo.setAttribute('alt', member.name); // fill in the blank
 		logo.setAttribute('loading', 'lazy');
@@ -42,9 +41,7 @@ async function getProphetData() {
 		web.innerHTML= member.website;
 
 
-		// Build the image portrait by setting all the relevant attributes
-
-		
+			
 		
 		card.appendChild(logo);
 		card.appendChild(name);
