@@ -263,7 +263,65 @@ body {
 
 
    /**********************above is weather data**************************/
+
+/*********************************Company Highlights********************************/
+.spotlight-1 section, .spotlight-2 section, .spotlight-3 section {
+	margin: 2px;
+}
+
+.spotlight-1 section, .spotlight-2 section, .spotlight-3 section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 2px;
+	
+}
+
+.spotlight-1, .spotlight-2, .spotlight-3 {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	align-items: center;
+}
+
+.spotlight-1 section, .spotlight-2 section, .spotlight-3 section  {
+	flex-direction: column;
+	text-align: center;
+}
+
+.spotlight-1 section > * , .spotlight-2 section > *, .spotlight-3 section > *{
+  font-size: 16px;
+	
+}
+.spotlight-1 section p, .spotlight-2 section p, .spotlight-3 section p {
+  font-size: 16px;
+	padding: 0;
+}
+
+.spotlight-1 h4 {
+	font-family: "Caveat", cursive;
+}
+
+
+.spotlight-1 section h4 {
+	font-size: 1.5rem;
+}
+
+.spotlight-1 section a, .spotlight-2 section a, .spotlight-3 section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.9rem;
+ color: black;
+ 
+}
+
+.spotlight-1 img, .spotlight-2 img, .spotlight-3 img  {
+	height: 75px;
+  border: 2px solid rgb(163, 162, 162);
+  border-radius: 10px;
+  width: auto /* Images are jerks - Seattle*/
   
+}
+
+
+
+ /**********************************end************************************/ 
   .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
