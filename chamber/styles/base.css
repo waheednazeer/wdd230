@@ -10,6 +10,15 @@
 }
 /*********************banner*******************/
 #banner{
+    text-align: center;
+    background-color: rgb(27, 27, 112);
+    padding: 5px;
+    color: white;
+    margin: 0 0;
+    z-index: -1;
+  }
+
+#banner{
   
   position: relative;
   animation-name: bnr;
@@ -21,11 +30,11 @@
 }
 
 @keyframes bnr {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:black; left:0px; top:5px;}
-  50%  {background-color:blue; left:0px; top:10px;}
-  75%  {background-color:green; left:0px; top:15px;}
-  100% {background-color:red; left:0px; top:20px;}
+  0%   {background-color:red; left:0px; top:5px;}
+  25%  {background-color:black; left:0px; top:10px;}
+  50%  {background-color:blue; left:0px; top:15px;}
+  75%  {background-color:green; left:0px; top:20px;}
+  100% {background-color:red; left:0px; top:30px;}
 }
 /**********************************************/
 body {
