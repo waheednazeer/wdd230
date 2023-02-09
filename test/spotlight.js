@@ -1,5 +1,5 @@
 let spotlightCards=document.querySelector('#spotlight-cards');
-let membersFile='data/members.json';
+let membersFile='members.json';
 
 
 async function getMembers(){
@@ -13,7 +13,7 @@ async function getMembers(){
 }
 getMembers();
 
-function filterMembers(members){ // filtering members that are silver or gold members.
+function filterMembers(members){
     const arr=[];
     let a=0;
 
@@ -55,7 +55,7 @@ console.log(newMembers);
 });
 }
 
-function selectThree(array){ // selecting unique three companies from filtered members
+function selectThree(array){
   let name=[];
   let oth=[...new Set(name)]
  
@@ -70,4 +70,11 @@ function selectThree(array){ // selecting unique three companies from filtered m
      return oth;
     }
     
+
+
+ 
+
+
+
+
 

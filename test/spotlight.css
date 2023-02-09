@@ -1,0 +1,33 @@
+
+body{
+    margin: 0 0;
+}
+header h1{
+    text-align: center;
+    background-color: blueviolet;
+    margin: 0 0;
+
+}
+#spotlight-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin: 40px 40px;
+   
+}
+#spotlight-cards section{
+    border: 1px solid;
+    text-align: center;
+    box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
+    padding-bottom: 20px;
+}
+#spotlight-cards section h3{
+    margin-top: -20px;
+    padding: 10px 0 10px 0;
+    color:white;
+    background-color: rgb(27, 27, 112);
+}
+#spotlight-cards section a{
+  
+    text-decoration: none;
+    }

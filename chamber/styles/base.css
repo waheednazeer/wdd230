@@ -265,105 +265,35 @@ body {
    /**********************above is weather data**************************/
 
 /*********************************Company Highlights********************************/
-.spotlight-1 section, .spotlight-2 section, .spotlight-3 section {
-	margin: 2px;
-}
-
-.spotlight-1 section, .spotlight-2 section, .spotlight-3 section {
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 2px;
-	
-}
-
-.spotlight-1, .spotlight-2, .spotlight-3 {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	align-items: center;
-}
-
-.spotlight-1 section, .spotlight-2 section, .spotlight-3 section  {
-	flex-direction: column;
-	text-align: center;
-}
-
-.spotlight-1 section > * , .spotlight-2 section > *, .spotlight-3 section > *{
-  font-size: 16px;
-	
-}
-.spotlight-1 section p, .spotlight-2 section p, .spotlight-3 section p {
-  font-size: 16px;
-	padding: 0;
-}
-
-.spotlight-1 h4 {
-	font-family: "Caveat", cursive;
-}
-
-
-.spotlight-1 section h4 {
-	font-size: 1.5rem;
-}
-
-.spotlight-1 section a, .spotlight-2 section a, .spotlight-3 section a {
-	font-family: "Roboto", Arial, sans-serif;
-	font-size: 0.9rem;
- color: black;
+#spotlight-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  margin: 40px 40px;
  
 }
-
-.spotlight-1 img, .spotlight-2 img, .spotlight-3 img  {
-	height: 75px;
-  border: 2px solid rgb(163, 162, 162);
-  border-radius: 10px;
-  width: auto /* Images are jerks - Seattle*/
-  
+#spotlight-cards section{
+  border: 1px solid;
+  text-align: center;
+  box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
+  padding-bottom: 20px;
 }
+#spotlight-cards section h3{
+  margin-top: -20px;
+  padding: 10px 0 10px 0;
+  color:white;
+  background-color: rgb(27, 27, 112);
+}
+#spotlight-cards section a{
+
+  text-decoration: none;
+  }
+
 
 
 
  /**********************************end************************************/ 
-  .cards{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    column-gap: 30px;
-    margin-bottom: 35px;
-    margin: 0 40px;
-  }
-
-  #card-1{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    height: auto;
-    width: 100%;
-    border: 1px solid;
-    box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
-    justify-items: center;
-  }
-  #card-2{
-    
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    padding-bottom: 15px;
-    height: auto;
-    width: 100%;
-    border: 1px solid;
-    box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
-   }
-
-  #card-3{
-    
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-    
-    height: auto;
-    width: 100%;
-    border: 1px solid;
-    box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
-   
-    
-
-  }
+  
   .map-container{
     display: grid;
     grid-template-columns: 40px 1fr 40px;
