@@ -3,7 +3,7 @@ let results=null;
 async function fetchAPI(api){
     const response=await fetch(api);
     const data=await response.json();
-    console.log(data);
+   
     displayResults(data);
 }
 
@@ -25,7 +25,7 @@ function displayResults(data){
 
     //----------------Next Day Temperature----------------------------
     dayNo+=1;
-    console.log(dayNames[dayNo]);
+    
     
     let dayN1=Math.floor(data.list[8].main.temp);
     document.querySelector('#dayN1').innerHTML=`${dayNames[dayNo]}: ${dayN1} &degC`;
@@ -41,7 +41,7 @@ function displayResults(data){
     if(dayNo>6){
         dayNo=0;
     }
-    //console.log(dayNo);
+    
     let dayN2=Math.floor(data.list[16].main.temp);
     document.querySelector('#dayN2').innerHTML=`${dayNames[dayNo]}: ${dayN2} &degC`;
 

@@ -27,7 +27,7 @@ function filterMembers(members){ // filtering members that are silver or gold me
 }
 
 function printCards(newMembers){
-console.log(newMembers);
+
     newMembers.forEach(member => {
         
     

@@ -8,8 +8,26 @@
   --card-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
   --hdr-bg-color:   rgb(27, 27, 112);
 }
+/*********************banner*******************/
+#banner{
+  
+  position: relative;
+  animation-name: bnr;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  
+}
 
-
+@keyframes bnr {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:black; left:0px; top:5px;}
+  50%  {background-color:blue; left:0px; top:10px;}
+  75%  {background-color:green; left:0px; top:15px;}
+  100% {background-color:red; left:0px; top:20px;}
+}
+/**********************************************/
 body {
     width: auto;
     font-family: 'Lato', sans-serif, serif;   
