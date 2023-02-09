@@ -302,8 +302,8 @@ body {
   text-decoration: none;
   }
   #spotlight-cards section img{
-    width:250px;
-    height: auto;
+    width:auto;
+    height: 150px;
   }
 
 
