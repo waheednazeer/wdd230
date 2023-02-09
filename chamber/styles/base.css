@@ -278,10 +278,6 @@ body {
     grid-column: 3/4;
 }
 
-
-
-   /**********************above is weather data**************************/
-
 /*********************************Company Highlights********************************/
 #spotlight-cards{
   display: grid;
