@@ -39,6 +39,7 @@ console.log(newMembers);
     let website=document.createElement('a');
 
     logo.setAttribute('src', member.logo);
+	logo.setAttribute('alt', member.name);
 
     name.innerHTML=`${member.name}`;
     address.innerHTML=member.address;
