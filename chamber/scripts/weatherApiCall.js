@@ -38,6 +38,10 @@ function displayResults(data){
 
     //----------------2nd Day weather----------------------
     dayNo+=1;
+    if(dayNo>6){
+        dayNo=0;
+    }
+    //console.log(dayNo);
     let dayN2=Math.floor(data.list[16].main.temp);
     document.querySelector('#dayN2').innerHTML=`${dayNames[dayNo]}: ${dayN2} &degC`;
 

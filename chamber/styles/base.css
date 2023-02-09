@@ -285,10 +285,12 @@ body {
   background-color: rgb(27, 27, 112);
 }
 #spotlight-cards section a{
-
   text-decoration: none;
   }
-
+  #spotlight-cards section img{
+    width:250px;
+    height: auto;
+  }
 
 
 
