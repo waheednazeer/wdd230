@@ -1,9 +1,9 @@
 
-let date=new Date();
-let day=date.getDay();
+let bannerDate=new Date();
+let bannerDay=date.getDay();
 //console.log(day);
 
-if (day > 0 && day <4){
+if (bannerDay > 0 && bannerDay <4){
 document.getElementById("banner").style.display = "block";
 }
 else{
