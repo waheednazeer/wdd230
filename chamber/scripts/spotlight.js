@@ -40,7 +40,10 @@ function printCards(newMembers){
 
     logo.setAttribute('src', member.logo);
 	logo.setAttribute('alt', member.name);
-
+    logo.setAttribute('loading', 'lazy');
+    logo.setAttribute('width', 'auto');
+    logo.setAttribute('height', '150');
+    
     name.innerHTML=`${member.name}`;
     address.innerHTML=member.address;
     phone.innerHTML=member.phone;
