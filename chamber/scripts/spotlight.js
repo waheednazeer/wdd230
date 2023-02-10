@@ -64,7 +64,7 @@ function selectThree(array){ // selecting unique three companies from filtered m
   let oth=[...new Set(name)]
  
     for (let i=0; oth.length < 3; i++){
-        select=Math.floor(Math.random()*5);
+        select=Math.floor(Math.random()*array.length);
         name[i]= array[select];
         oth=[...new Set(name)]
        

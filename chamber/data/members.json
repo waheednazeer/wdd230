@@ -1,6 +1,14 @@
 {
 	"members": [
 			{
+			"logo": "images/PK.png",
+			"name": "ABC Enterprises",
+			"membership": "Silver",
+			"address": "F-10/3 ISB",
+			"phone": "(051) 999 999 999",
+			"website": "https://www.abc.com.pk"
+			},
+			{
 			"logo": "images/logo.webp",
 			"name": "Net Link Technology Solutions",
 			"membership": "Gold",
@@ -60,6 +68,8 @@
 			"phone": "(051) 111 345 100",
 			"website": "https://www.telenor.com.pk"
         	}
+			
+
 		]
 }
   
