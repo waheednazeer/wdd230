@@ -20,7 +20,7 @@ function displayResults(data){
     
     let desN0=data.list[0].weather[0].description;
    
-    document.querySelector('#dayN0').innerHTML=`${dayNames[dayNo]}: ${dayN0} &degC`;
+    document.querySelector('#dayN0').innerHTML=`Current: ${dayN0} &degC`;
     document.querySelector('#desN0').innerHTML=desN0;
 
     //----------------Next Day Temperature----------------------------
