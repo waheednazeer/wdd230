@@ -1,0 +1,35 @@
+
+#iconN0, #iconN1, #iconN2{
+    width: 100px;
+    height:auto;
+    display:block;
+   margin: 0 auto;
+}
+
+.weatherCards{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+        
+}
+#one,#two,#three{
+    border: 2px solid blue;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+#one{
+    grid-column: 1/2;   
+}
+#two{
+    grid-column: 2/3;   
+}
+#three{
+    grid-column: 3/4;
+}
+input{
+    display: block;
+    width: 350px;
+    margin:0 0;
+    
+}
