@@ -476,15 +476,16 @@ body {
    
 }
 form legend{
-    color: var(--lgnd-color);
+    color: black;
     margin: 0 1rem;
     padding: 0 .5rem;
+    font-weight: bold;
 }
 .output-msg legend{
-  color: var(--lgnd-color);
+  color: black;
     margin: 0 1rem;
     padding: 0 .5rem;
-    
+    font-weight: bold;
 }
 form label.top, form div{
     display: block;
