@@ -1,0 +1,120 @@
+
+:root{
+    --bg-color: rgb(13, 13, 132);
+}
+*{
+    margin: 0 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 1fr 1fr;
+    row-gap: 10px;
+    height: 73vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    padding-top: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: var(--bg-color);
+    color: white;
+    margin-bottom: 10px;
+    }
+
+.inputCity{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    
+}
+
+.inputCity #city{
+    width: 51%;
+    font-size: 20px;
+    padding: 10px;
+   
+}
+.inputCity #subBtn{
+    
+    font-size: 20px;
+    padding: 10px;
+   
+}
+.showWeather{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #eee;
+}
+#description{
+    text-transform: capitalize;
+}
+.showWeather h2{
+    text-align: center;
+    background-color: var(--bg-color);
+    color: white;
+}
+.showWeather{
+    padding-bottom: 10px;
+}
+.forecast{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #eee;
+}
+.forecast{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 200px;
+ }
+
+#msg{
+    text-align: center;
+    background-color: rgb(27, 27, 112);
+    padding: 5px;
+    color: white;
+    margin: 0 0;
+    
+  }
+
+#msg{
+  
+  position: relative;
+  animation-name: bnr;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes bnr {
+  0%   {background-color:red; left:0px; top:5px;}
+  25%  {background-color:black; left:0px; top:50px;}
+  50%  {background-color:blue; left:0px; top:75px;}
+  75%  {background-color:green; left:0px; top:100px;}
+  100% {background-color:red; left:0px; top:140px;}
+}
+
+
+
+
+
+
+ /*--------------Footer----------------------*/ 
+ footer {
+    background: black;
+    color: white;
+    margin-top: 35px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lato', sans-serif, serif;
+    font-size: 15px;
+    
+    
+  }
+
+

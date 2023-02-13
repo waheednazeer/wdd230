@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Weather Status of any City of the World</title>
+    <link rel="stylesheet" href="openweatherAPI.css">
+</head>
+<body>
+    <header>
+    <h1>Check Current Weather of Any City</h1>
+    <p>powered by: openweather.com</p>
+    </header>
+   <main>
+    <div class="inputCity">
+        <label> Enter City: <input id="city" type="text"></label>
+        <label><input type="button" id="subBtn" onclick="getWeather()" value="Get Temperature"></label>
+    </div>
+    <div class="showWeather">
+        <h2>Current Weather</h2>
+        <img id="img" src="" alt="" srcset="">
+        <p>Current Status: </span> <span id="temp"> </span>&nbsp; with &nbsp;<span id="description"></span></p>
+    </div>
+
+    <div class="forecast">
+     <h2 id="msg"></h2>
+    </div>
+   </main>
+   <footer>
+    <p>
+        &copy;<span id="currentyear"></span> - Waheed Nazir - Pakistan |
+        Last Modified: <span id="lastmodified"> </span>
+    </p>
+    </footer>
+    <script src="openweatherAPI.js"></script>
+</body>
+</html>

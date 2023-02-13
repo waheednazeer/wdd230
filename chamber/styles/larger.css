@@ -1,31 +1,49 @@
 
  @media (max-width: 500px){
-  
+
+  #menu::before {
+    content: "≡";
+    font-size: 3rem;
+    margin-right: 10px;
+    color: white;
+   }
+.navigation-menu > a{
+  display: none;
+}
+
+ #banner{
+  font-size: 21px;
+  padding:5px;
+ } 
   main {
     max-width: 500px;
     padding: 1rem;
-    
+    padding: 0 0;
+  }
+  .main-index hr{
+    margin-top: -15px;
+   
   }
   .updates{
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
-    margin-bottom: 35px;
-    margin: 0 40px;   
+    row-gap: 30px;
+  
+    
   }
   
   
   #spotlight-cards{
    
     display: flex;
-    row-gap: 25px;
+    row-gap: 30px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
      }
      #spotlight-cards section{
       width: 100%;
-      margin-bottom: 20px;
+   
      }
 
 
@@ -42,27 +60,25 @@
     }
     .map{
       grid-column: 1/4;
-      width:83%;
-      margin-left: 40px;
-      
+      width: 88%;
     }
 
     /* below is CSS code for discover.html*/
  
   .disc-main hr{
     border: 5px solid black;
-    width: 99%;
+    width: 98%;
+    margin-bottom: 30px;
   }
   .disc-main{
-    margin: 0 30px;
+  
     display: flex;
     flex-direction: column;
-    row-gap: 30px;
+   
   }  
   .sidebar{
     width: 100%;
     align-self: flex-start;
-    background-color: yellowgreen;
     position:initial;
     height: auto;
    padding-bottom: 20px;
@@ -81,8 +97,8 @@
   .form{
     display: flex;
     flex-direction: column;
-    column-gap: 30px;
-    margin: 0 20px;
+    row-gap: 30px;
+ 
  }
  .input-msg{
   width: 100%;
@@ -92,14 +108,18 @@
   
 }
 .heading{
-  font-size: 25px;
+  font-size: 30px;
+}
+.main-join hr{
+ margin-top: -15px;
 }
 .heading-2{
-  font-size: 22px;
+  font-size: 23px;
+  margin-top: 30px;
 }
 .form-heading{
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: 25px;
+ 
 }
 .logo{
   width: 150px;
@@ -115,16 +135,18 @@
 .list section {
 	display: flex;
 	flex-direction: column;
-  text-align: left;
-margin-top: 25px;
-
-  
+  text-align: center;
  
 }
 .main-cards section a {
-	padding-left: 20px;
   padding-bottom: 20px;
 }
-
+.list section p{
+  text-align: center;
+  }
+  .list section a{
+    text-align: center;
+    padding: 0;
+    }
 
  }
