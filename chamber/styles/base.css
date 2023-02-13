@@ -350,7 +350,6 @@ body {
     text-align: left;
     column-gap: 30px;
     padding-top: 30px;
-    padding-left: 10px;
     justify-content: left;
   }
  
@@ -363,8 +362,8 @@ body {
     padding: 5px;
     font-family: 'Lato', sans-serif, serif;
     font-size: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
     
   }
   /* below is CSS code for discover.html*/
