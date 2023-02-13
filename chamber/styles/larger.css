@@ -7,7 +7,7 @@
     margin-right: 10px;
     color: white;
    }
-.navigation-menu > a{
+.navigation-menu > a, .navigation-menu input{
   display: none;
 }
 
