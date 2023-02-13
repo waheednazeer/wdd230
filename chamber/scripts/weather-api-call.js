@@ -15,7 +15,7 @@ function displayResults(data){
     let dayN0=Math.floor(data.list[0].main.temp);
     
     let img=document.querySelector('#iconN0');
-    let iconN0= `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
+    let iconN0= `https://openweathermap.org/img/wn/${data.list[0].weather[0].icon}@2x.png`;
     img.setAttribute('src', iconN0);
     
     let desN0=data.list[0].weather[0].description;
@@ -31,7 +31,7 @@ function displayResults(data){
     document.querySelector('#dayN1').innerHTML=`${dayNames[dayNo]}: ${dayN1} &degC`;
 
     let imgN1=document.querySelector('#iconN1');
-    let iconN1= `https://openweathermap.org/img/w/${data.list[8].weather[0].icon}.png`;
+    let iconN1= `https://openweathermap.org/img/wn/${data.list[8].weather[0].icon}@2x.png`;
     imgN1.setAttribute('src', iconN1);
    
     document.querySelector('#desN1').innerHTML= data.list[8].weather[0].description;
@@ -46,7 +46,7 @@ function displayResults(data){
     document.querySelector('#dayN2').innerHTML=`${dayNames[dayNo]}: ${dayN2} &degC`;
 
     let imgN2=document.querySelector('#iconN2');
-    let iconN2= `https://openweathermap.org/img/w/${data.list[16].weather[0].icon}.png`;
+    let iconN2= `https://openweathermap.org/img/wn/${data.list[16].weather[0].icon}@2x.png`;
     imgN2.setAttribute('src', iconN2);
     document.querySelector('#desN2').innerHTML=data.list[16].weather[0].description;
     
