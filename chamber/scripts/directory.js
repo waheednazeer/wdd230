@@ -28,7 +28,6 @@ async function getProphetData() {
 
 		logo.setAttribute('src', member.logo);
 		logo.setAttribute('alt', member.name); // fill in the blank
-		logo.setAttribute('loading', 'lazy');
 		logo.setAttribute('height', '75px');
 		
 		
