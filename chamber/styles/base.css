@@ -339,6 +339,20 @@ body {
   border: none;
   
   }
+  .chamber-mgt img{
+    width: 170px;
+    height: 64px;
+    
+  }
+  .chamber-mgt{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    column-gap: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    justify-content: left;
+  }
  
     
   footer {

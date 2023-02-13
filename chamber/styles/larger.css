@@ -149,4 +149,9 @@
     padding: 0;
     }
 
+
+    .chamber-mgt{
+      flex-direction: column;
+    }
+
  }
