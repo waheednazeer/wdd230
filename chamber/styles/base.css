@@ -54,6 +54,16 @@ body {
     padding: 15px;
     
   }
+  .navigation-menu input{
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: right;
+    gap: 3rem;
+    background: black;
+    width: auto;
+    padding: 15px;
+    color: white;
+  }
   
   header {
     display: flex;
