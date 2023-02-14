@@ -18,37 +18,31 @@ async function getProphetData() {
         let card = document.createElement('section');
 		
         // elements
-        let logo = document.createElement('img');
-		let name = document.createElement('p'); // fill in the blank
+		let section=document.createElement('section');
+		let name=document.createElement('h3');
 		let address=document.createElement('p');
 		let phone=document.createElement('p');
-		let membership=document.createElement('p');
-		let web=document.createElement('a');
-
+		let logo=document.createElement('img');
+		let website=document.createElement('a');
 
 		logo.setAttribute('src', member.logo);
-		logo.setAttribute('alt', member.name); // fill in the blank
-		logo.setAttribute('height', '75px');
+		logo.setAttribute('alt', member.name);
+		logo.setAttribute('loading', 'lazy');
+		logo.setAttribute('width', 'auto');
+		logo.setAttribute('height', '150');
 		
+		name.innerHTML=`${member.name}`;
+		address.innerHTML=member.address;
+		phone.innerHTML=member.phone;
+		website.href=member.website;
+		website.innerHTML=member.website;
 		
-
-		name.innerHTML = `${member.name}`;
-		address.innerHTML = member.address;
-		phone.innerHTML= member.phone;
-		membership.innerHTML= member.membership;
-        web.href= member.website;
-		web.innerHTML= member.website;
-
-
-			
-		
-		card.appendChild(logo);
-		card.appendChild(name);
-		card.appendChild(address);
-		card.appendChild(phone);
-        card.appendChild(membership);
-        card.appendChild(web);
-		cards.appendChild(card);
+		section.appendChild(name);
+		section.appendChild(logo);
+		section.appendChild(address);
+		section.appendChild(phone);
+		section.appendChild(website);
+		cards.appendChild(section);
 		
 
 });
