@@ -318,27 +318,7 @@ body {
 
 
  /**********************************end************************************/ 
-  
-  .map-container{
-    display: grid;
-    grid-template-columns:1fr;
-    position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 35%;
-  margin-bottom: 30px;
-  }
-  .map{
-    position: absolute;
-  top: 0;
-  left: 30px;
-  bottom: 0;
-  right: 30px;
-  width: 95%;
-  height: 100%;
-  border: none;
-  
-  }
+
   .chamber-mgt img{
     width: 170px;
     height: 64px;
