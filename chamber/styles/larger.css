@@ -135,6 +135,9 @@
   text-align: center;
  
 }
+.list section h2 {
+  text-align: center;
+}
 .main-cards section a {
   padding-bottom: 20px;
 }

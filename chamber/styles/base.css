@@ -635,8 +635,8 @@ font-size: 0.8rem;
 
 .list section {
 	display: grid;
-	grid-template-columns: 0.8fr .9fr .6fr .4fr .7fr;
-  text-align: left;
+	grid-template-columns: 1.5fr 1.5fr .8fr 1.2fr;
+  text-align: center;
   column-gap: 2px;
 	margin: auto;
 	padding: 0;
@@ -645,10 +645,11 @@ font-size: 0.8rem;
 }
 .list section p{
 text-align: left;
+margin: 10px;
 }
 .list section a{
   text-align: left;
-  padding: 0;
+  margin: 10px;
   }
 
 .list section > * {
@@ -659,9 +660,11 @@ text-align: left;
 	display: none; /* smaller viewports only */
 }
 
-.list section h3 {
-	font-size: 1rem;
+.list section h2 {
+	font-size: 20px;
 	font-family: Roboto, Helvetica, sans-serif;
+  text-align: left;
+  padding-left: 10px;
 }
 
 .list section:nth-child(even){
@@ -670,10 +673,6 @@ text-align: left;
 }
 
 
-
-.main-cards section h4 {
-	font-size: 1.5rem;
-}
 
 
 
