@@ -244,10 +244,7 @@ body {
     box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
    }
 
-   #weather{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   
-}
+
 #weather h4{
     text-align: center;
     background-color: rgb(10, 10, 120);
