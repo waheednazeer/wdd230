@@ -597,7 +597,8 @@ font-size: 0.8rem;
   box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
   padding-bottom: 20px;
 }
-.main-cards section h3{
+.main-cards section h2{
+  font-size: 22px;
   padding: 10px 0 10px 0;
   text-align: center;
   margin-top: -1px;
