@@ -28,7 +28,6 @@ function displayResults(data){
     day++;    
     let weekday=document.createElement('p');
     let section=document.createElement('section');
-    let name=document.createElement('h3');
     let temp=document.createElement('p');
     let descript=document.createElement('p');
     let icon=document.createElement('img');
