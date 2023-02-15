@@ -26,8 +26,8 @@ async function getProphetData() {
 		logo.setAttribute('src', member.logo);
 		logo.setAttribute('alt', member.name);
 		logo.setAttribute('loading', 'lazy');
-		logo.setAttribute('width', 'auto');
-		logo.setAttribute('height', '150');
+		logo.setAttribute('width', '200');
+		logo.setAttribute('height', '100');
 		
 		name.innerHTML=`${member.name}`;
 		address.innerHTML=member.address;
