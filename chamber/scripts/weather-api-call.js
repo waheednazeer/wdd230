@@ -23,11 +23,9 @@ async function fetchAPI(api){
 }
 
 function displayResults(data){
-
     
-
     for (let i=8; i<25; i+=8){
-        
+    day++;    
     let weekday=document.createElement('p');
     let section=document.createElement('section');
     let name=document.createElement('h3');
@@ -52,7 +50,7 @@ function displayResults(data){
     section.appendChild(temp);
    
     forecast.appendChild(section);
-    day++;
+    
     
     }
 
