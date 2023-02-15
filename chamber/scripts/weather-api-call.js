@@ -5,7 +5,7 @@ let dayNames=['Sunday','Monday','Tuesday', 'Wednesday', 'Thursday', 'Friday', 'S
 let daysDate=new Date();
 let day=daysDate.getDay();
 
-console.log(dayNames[day]);
+//console.log(dayNames[day]);
 
 async function fetchAPI(api){
     const response=await fetch(api);
@@ -15,7 +15,7 @@ async function fetchAPI(api){
    displayCurrent(data);    
    displayResults(data);
 
-   console.log(data.list);
+   //console.log(data.list);
     }
     else{
         console.error();
