@@ -6,14 +6,6 @@
     margin: 0 0;
 }
 
-main{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: .5fr 1fr 1fr;
-    row-gap: 10px;
-    height: 73vh;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 header{
     padding-top: 10px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,82 +14,44 @@ header{
     color: white;
     margin-bottom: 10px;
     }
-
-.inputCity{
-    width: 50%;
-    margin: auto;
-    text-align: left;
-    
+#weather{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 390px;
+    margin-left: 50px;
 }
-
-.inputCity #city{
-    width: 51%;
-    font-size: 20px;
-    padding: 10px;
-   
-}
-.inputCity #subBtn{
-    
-    font-size: 20px;
-    padding: 10px;
-   
-}
-.showWeather{
-    width: 50%;
-    margin: auto;
+#weather h4{
     text-align: center;
-    border: 2px solid #eee;
+    background-color: #eee;
+    color: black;
 }
-#description{
-    text-transform: capitalize;
-}
-.showWeather h2{
-    text-align: center;
-    background-color: var(--bg-color);
-    color: white;
-}
-.showWeather{
-    padding-bottom: 10px;
-}
-.forecast{
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    border: 2px solid #eee;
-}
-.forecast{
-    grid-column: 1/2;
-    grid-row: 3/4;
-    height: 200px;
- }
+    #current{
+        margin-top: -10px;
+        margin-bottom: -15px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
 
-#msg{
-    text-align: center;
-    background-color: rgb(27, 27, 112);
-    padding: 5px;
-    color: white;
-    margin: 0 0;
-    
-  }
+    }
+    #current{
+       
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .forecast{
+        display: flex;
+        margin-top: 10px;
+    }
+    .forecast section:first-of-type{
+        border-left: none;
+    }
+    .forecast section{
+        text-align: center;
+        width: 130px;
+        border-left: 1px solid black;
 
-#msg{
-  
-  position: relative;
-  animation-name: bnr;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  
-}
-
-@keyframes bnr {
-  0%   {background-color:red; left:0px; top:5px;}
-  25%  {background-color:black; left:0px; top:50px;}
-  50%  {background-color:blue; left:0px; top:75px;}
-  75%  {background-color:green; left:0px; top:100px;}
-  100% {background-color:red; left:0px; top:140px;}
-}
+    }
 
 
 

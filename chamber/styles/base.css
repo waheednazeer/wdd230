@@ -235,56 +235,63 @@ body {
 
   /*****************Weather Data*******************/
   #weather{
-    
+    padding-bottom: 5px;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    padding-bottom: 15px;
     height: auto;
     width: 100%;
     border: 1px solid;
     box-shadow: 12px 12px 2px 1px rgb(137, 133, 133);
    }
-   #iconN0, #iconN1, #iconN2{
-    width: 70px;
-    height:auto;
-    display:block;
-   margin: 0 auto;
-   
-}
-#desN0, #desN1, #desN2{
-  text-transform: capitalize;
-}
 
-.weatherCards{
+   #weather{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-        
 }
-#one,#two,#three{
-    
-    padding: 1px;
+#weather h4{
     text-align: center;
-    font-size: 15px;
+    background-color: rgb(10, 10, 120);
+    color: white;
+    padding: 5px;
+    margin-top: -20px;
+    margin-bottom: -5px;
 }
-#one{
-  
-   border-right: 1px solid #ccc;
-}
-#three{
-  border-left: 1px solid #ccc;
-  
-}
+    #current{
+        margin-top: -20px;
+        margin-bottom: -20px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
 
-#one{
-    grid-column: 1/2;   
-}
-#two{
-    grid-column: 2/3;   
-}
-#three{
-    grid-column: 3/4;
-}
+    }
+    #current{
+       
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .forecast{
+        display: flex;
+        margin-top: 10px;
+    }
+    .forecast section:first-of-type{
+        border-left: none;
+    }
+    .forecast section{
+        text-align: center;
+        width: 33.3%;
+        border-left: 1px solid black;
+
+    }
+    .forecast section p, #current section p{
+      text-transform: capitalize;
+    }
+    .forecast section p{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+   
 
 /*********************************Company Highlights********************************/
 #spotlight-cards{

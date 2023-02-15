@@ -1,61 +1,95 @@
+const forecast = document.querySelector('.forecast');
+const current = document.querySelector('#current');
 
-let results=null;
+let dayNames=['Sunday','Monday','Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+let daysDate=new Date();
+let day=daysDate.getDay();
+
+console.log(dayNames[day]);
+
 async function fetchAPI(api){
     const response=await fetch(api);
+    if (response.ok){
     const data=await response.json();
-   
-    displayResults(data);
+
+   displayCurrent(data);    
+   displayResults(data);
+
+   console.log(data.list);
+    }
+    else{
+        console.error();
+    }  
 }
 
 function displayResults(data){
-    let dayNames=['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    let weekDays=new Date();
-    let dayNo=weekDays.getDay();
-   
-    let dayN0=Math.floor(data.list[0].main.temp);
-    
-    let img=document.querySelector('#iconN0');
-    let iconN0= `https://openweathermap.org/img/wn/${data.list[0].weather[0].icon}@2x.png`;
-    img.setAttribute('src', iconN0);
-    
-    let desN0=data.list[0].weather[0].description;
-   
-    document.querySelector('#dayN0').innerHTML=`Current: ${dayN0} &degC`;
-    document.querySelector('#desN0').innerHTML=desN0;
 
-    //----------------Next Day Temperature----------------------------
-    dayNo+=1;
     
-    
-    let dayN1=Math.floor(data.list[8].main.temp);
-    document.querySelector('#dayN1').innerHTML=`${dayNames[dayNo]}: ${dayN1} &degC`;
 
-    let imgN1=document.querySelector('#iconN1');
-    let iconN1= `https://openweathermap.org/img/wn/${data.list[8].weather[0].icon}@2x.png`;
-    imgN1.setAttribute('src', iconN1);
+    for (let i=8; i<25; i+=8){
+        
+    let weekday=document.createElement('p');
+    let section=document.createElement('section');
+    let name=document.createElement('h3');
+    let temp=document.createElement('p');
+    let descript=document.createElement('p');
+    let icon=document.createElement('img');
+    let iconSrc= `https://openweathermap.org/img/wn/${data.list[i].weather[0].icon}@2x.png`;
+
+    icon.setAttribute('src', iconSrc );
+    icon.setAttribute('alt', data.list[i].weather[0].description);
+    icon.setAttribute('loading', 'lazy');
+    icon.setAttribute('width', '75');
+    icon.setAttribute('height', '75');
+    
+    weekday.innerHTML=dayNames[day];
+    descript.innerHTML=`${data.list[i].weather[0].description}`;
+    temp.innerHTML=`${data.list[i].main.temp}&degC`;
    
-    document.querySelector('#desN1').innerHTML= data.list[8].weather[0].description;
-
-    //----------------2nd Day weather----------------------
-    dayNo+=1;
-    if(dayNo>6){
-        dayNo=0;
+    section.appendChild(weekday);    
+    section.appendChild(icon);
+    section.appendChild(descript);
+    section.appendChild(temp);
+   
+    forecast.appendChild(section);
+    day++;
+    
     }
-    
-    let dayN2=Math.floor(data.list[16].main.temp);
-    document.querySelector('#dayN2').innerHTML=`${dayNames[dayNo]}: ${dayN2} &degC`;
 
-    let imgN2=document.querySelector('#iconN2');
-    let iconN2= `https://openweathermap.org/img/wn/${data.list[16].weather[0].icon}@2x.png`;
-    imgN2.setAttribute('src', iconN2);
-    document.querySelector('#desN2').innerHTML=data.list[16].weather[0].description;
-    
-}
+} 
+
 getWeather();
 
 function getWeather(){
-        
-    const apiCall=`https://api.openweathermap.org/data/2.5/forecast?q=Islamabad,pakistan&APPID=ded02857eed646cffb678b4e38d1dde4&units=metric`;
+      
+    const apiCall=`https://api.openweathermap.org/data/2.5/forecast?q=islamabad&APPID=ded02857eed646cffb678b4e38d1dde4&units=metric&units=metric`;
     fetchAPI(apiCall);
 }
-//https://api.openweathermap.org/data/2.5/forecast?q=Islamabad,pakistan&cnt=10&APPID=ded02857eed646cffb678b4e38d1dde4
+
+
+
+function displayCurrent(data){
+    let sectionIcon=document.createElement('section');
+    let sectionTemp=document.createElement('section');
+    let name=document.createElement('h3');
+    let temp=document.createElement('p');
+    let descript=document.createElement('p');
+    let icon=document.createElement('img');
+    let iconSrc= `https://openweathermap.org/img/wn/${data.list[0].weather[0].icon}@2x.png`;
+
+    icon.setAttribute('src', iconSrc );
+    icon.setAttribute('alt', data.list[0].weather[0].description);
+    icon.setAttribute('loading', 'lazy');
+    icon.setAttribute('width', '100');
+    icon.setAttribute('height', '100');
+    
+    //descript.innerHTML=`${data.list[0].weather[0].description}`;
+    temp.innerHTML=`${data.list[0].main.temp}&degC ${data.list[0].weather[0].description}`;
+   
+        
+    sectionIcon.appendChild(icon);
+    sectionTemp.appendChild(temp);
+   
+    current.appendChild(sectionIcon);
+    current.appendChild(sectionTemp);
+}

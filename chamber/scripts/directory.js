@@ -14,9 +14,7 @@ async function getProphetData() {
   function displayProphets (members){
 	
 	members.forEach((member) => {
-		// Create elements to add to the div.cards element
-        let card = document.createElement('section');
-		
+	        	
         // elements
 		let section=document.createElement('section');
 		let name=document.createElement('h3');
