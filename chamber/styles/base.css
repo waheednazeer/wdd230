@@ -609,8 +609,8 @@ font-size: 0.8rem;
   text-decoration: none;
   }
   .main-cards section img{
-    width:auto;
-    height: 150px;
+    width:200px;
+    height: 100px;
     margin-top: 20px;
   }
 
