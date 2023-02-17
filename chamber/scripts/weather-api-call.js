@@ -25,7 +25,8 @@ async function fetchAPI(api){
 function displayResults(data){
     
     for (let i=8; i<25; i+=8){
-    day++;    
+    day++;
+    if(day > 6){day=0;    }    
     let weekday=document.createElement('p');
     let section=document.createElement('section');
     let temp=document.createElement('p');
